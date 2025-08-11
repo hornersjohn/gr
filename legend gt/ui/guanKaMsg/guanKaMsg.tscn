@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/msgBase/msgBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ui/guanKaMsg/guanKaMsg.gd" type="Script" id=3]
+
+[node name="guanKaMsg" instance=ExtResource( 1 )]
+visible = true
+margin_left = 223.0
+margin_top = 87.0
+margin_right = -206.0
+margin_bottom = -30.0
+window_title = "关卡"
+script = ExtResource( 3 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." index="1"]
+anchor_left = 0.0976686
+anchor_top = 0.0466321
+anchor_right = 0.911783
+anchor_bottom = 0.927461
+scroll_horizontal_enabled = false
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer" index="0"]
+[connection signal="about_to_show" from="." to="." method="_on_guanKaMsg_about_to_show"]
+[connection signal="tree_exited" from="." to="." method="_on_guanKaMsg_tree_exited"]

@@ -1,0 +1,89 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/msgBaseX/msgBaseX.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ui/jiangLiMsg/jiangLiMsg.gd" type="Script" id=2]
+
+[node name="jiangLiMsg" instance=ExtResource( 1 )]
+visible = true
+script = ExtResource( 2 )
+
+[node name="Panel" type="Panel" parent="." index="0"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -565.0
+margin_top = -302.0
+margin_right = 587.0
+margin_bottom = 291.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel" index="0"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -74.0
+margin_top = 11.0
+margin_right = 62.0
+margin_bottom = 44.0
+text = "胜利！选择战利品"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="Panel" index="1"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -523.0
+margin_top = -227.5
+margin_right = 514.0
+margin_bottom = -3.5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/CenterContainer" index="0"]
+margin_left = 518.0
+margin_top = 112.0
+margin_right = 518.0
+margin_bottom = 112.0
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel" index="2"]
+margin_left = 64.0
+margin_top = 275.0
+margin_right = 1093.0
+margin_bottom = 439.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Panel" index="3"]
+margin_left = 526.611
+margin_top = 512.276
+margin_right = 628.611
+margin_bottom = 556.856
+text = "确定"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="Panel" index="4"]
+margin_left = 460.611
+margin_top = 454.276
+margin_right = 697.818
+margin_bottom = 506.651
+text = "看视频获得额外战利品"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Panel/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Panel/Button2" to="." method="_on_Button2_pressed"]

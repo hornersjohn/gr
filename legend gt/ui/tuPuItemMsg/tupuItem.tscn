@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://ui/tuPuItemMsg/1.png" type="Texture" id=1]
+[ext_resource path="res://ui/item/item.tscn" type="PackedScene" id=2]
+[ext_resource path="res://ui/tuPuItemMsg/tupuItem.gd" type="Script" id=3]
+[ext_resource path="res://ui/theme.tres" type="Theme" id=4]
+
+[node name="item" type="NinePatchRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -1488.0
+margin_bottom = -710.0
+rect_min_size = Vector2( 152, 110 )
+theme = ExtResource( 4 )
+texture = ExtResource( 1 )
+patch_margin_left = 29
+patch_margin_top = 17
+patch_margin_right = 17
+patch_margin_bottom = 25
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 4.0
+margin_top = 67.0
+margin_right = 146.0
+margin_bottom = 109.0
+text = "超级无敌的衣服"
+align = 1
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="item" parent="." instance=ExtResource( 2 )]
+margin_left = 47.1595
+margin_top = 14.4958
+margin_right = 98.1595
+margin_bottom = 65.4958

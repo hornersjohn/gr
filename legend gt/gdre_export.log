@@ -1,0 +1,56 @@
+GDRE Tools v0.9.0-beta.4
+Windows 10.0.19045, NVIDIA GeForce RTX 2080 Ti, opengl3
+Opening file: E:/projects/Godot/Legend monster/win.exe
+WARNING: Could not find embedded pck in EXE, found pck file, loading from: E:/projects/Godot/Legend monster/win.exe
+   at: GDRESettings::load_project (modules\gdsdecomp\utility\gdre_settings.cpp:586)
+Verified 1287 files, no errors detected!
+Extracted 1287 files, no errors detected!
+WARNING: Converting lossy imports, you may lose fidelity for indicated assets when re-importing upon loading the project
+   at: ImportExporter::_export_imports (modules\gdsdecomp\utility\import_exporter.cpp:241)
+Script version 3.2.0-stable (rev 0x5565f55) detected
+Exporting resources in parallel...
+Loading resource strings, this may take a while!!
+Resource strings loaded!
+Saved project config project.godot.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     264
+Failed scripts:                         0
+Imported resources for export session:  302
+Successfully converted:                 302
+Lossy:                                  1
+Rewrote metadata:                       0
+Non-importable conversions:             0
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+The following files were converted from an import that was stored lossy.
+You may lose fidelity when re-importing these files upon loading the project.
+res://.import/cardMakerheader.jpg-8e0d934fb5b6dd044dbf44cbde84e4be.stex to res://res/ui/cardMakerheader.jpg
+
+
+
+---------------------------------IMPORTANT NOTES----------------------------------
+
+
+Translation Export Incomplete:
+WARNING: Could not recover 1 keys for res://res/lg/item.csv
+WARNING: Could not recover 12 keys for res://res/lg/lg.csv
+
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 3.2.1 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+

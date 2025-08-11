@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://res/lg/chara.zh_Hans_CN.translation", "res://res/lg/chara.en.translation", "res://res/lg/chara.ja.translation" ]
+
+source_file="res://res/lg/chara.csv"
+dest_files=[ "res://res/lg/chara.zh_Hans_CN.translation", "res://res/lg/chara.en.translation", "res://res/lg/chara.ja.translation" ]
+
+[params]
+
+compress=true
+delimiter=0

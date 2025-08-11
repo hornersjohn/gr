@@ -1,0 +1,44 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://ui/theme.tres" type="Theme" id=1]
+
+[node name="Popup" type="Popup"]
+margin_right = 1641.0
+margin_bottom = 828.0
+theme = ExtResource( 1 )
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 365.184
+margin_top = 50.146
+margin_right = 1307.18
+margin_bottom = 484.146
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="LineEdit" parent="Panel"]
+margin_left = 344.912
+margin_top = 136.415
+margin_right = 416.912
+margin_bottom = 178.415
+rect_scale = Vector2( 3, 3 )
+text = "3333"
+max_length = 4
+secret = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel"]
+margin_left = 293.555
+margin_top = 74.4627
+margin_right = 631.555
+margin_bottom = 116.463
+text = "启用少年模式，需要设置独立密码"
+
+[node name="Button" type="Button" parent="Panel"]
+margin_left = 360.858
+margin_top = 317.899
+margin_right = 553.858
+margin_bottom = 370.274
+text = "下一步"

@@ -1,0 +1,96 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/msgBase/msgBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ui/sheZhi/sheZhi.gd" type="Script" id=2]
+
+[node name="Control" instance=ExtResource( 1 )]
+visible = true
+margin_left = 298.0
+margin_top = 117.0
+margin_right = -296.0
+margin_bottom = -155.0
+script = ExtResource( 2 )
+
+[node name="HSlider" type="HSlider" parent="." index="1"]
+anchor_left = 0.363836
+anchor_top = 0.195159
+anchor_right = 0.707048
+anchor_bottom = 0.224356
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Label" type="Label" parent="HSlider" index="0"]
+margin_left = -52.9266
+margin_top = -10.2913
+margin_right = 6.07343
+margin_bottom = 22.7087
+text = "BGM："
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="HSlider2" type="HSlider" parent="." index="2"]
+anchor_left = 0.363836
+anchor_top = 0.269977
+anchor_right = 0.707048
+anchor_bottom = 0.299174
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Label" type="Label" parent="HSlider2" index="0"]
+margin_left = -52.9266
+margin_top = -10.2913
+margin_right = 6.07343
+margin_bottom = 22.7087
+text = "SE："
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Button" type="Button" parent="." index="3"]
+anchor_left = 0.43499
+anchor_top = 0.520073
+anchor_right = 0.58891
+anchor_bottom = 0.615648
+text = "制作名单"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Button2" type="Button" parent="." index="4"]
+anchor_left = 0.43064
+anchor_top = 0.837604
+anchor_right = 0.592207
+anchor_bottom = 0.933179
+text = "返回"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="OptionButton" type="OptionButton" parent="." index="5"]
+anchor_left = 0.508856
+anchor_top = 0.362827
+anchor_right = 0.536581
+anchor_bottom = 0.43217
+margin_bottom = -1.52588e-05
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Label" type="Label" parent="OptionButton" index="1"]
+margin_left = -118.352
+margin_top = 1.36032
+margin_right = -72.3525
+margin_bottom = 39.3604
+text = "语言"
+__meta__ = {
+"_edit_use_anchors_": true
+}
+[connection signal="tree_exiting" from="." to="." method="_on_Control_tree_exiting"]
+[connection signal="value_changed" from="HSlider" to="." method="_on_HSlider_value_changed"]
+[connection signal="value_changed" from="HSlider2" to="." method="_on_HSlider2_value_changed"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
+[connection signal="item_selected" from="OptionButton" to="." method="_on_OptionButton_item_selected"]

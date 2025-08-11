@@ -1,0 +1,82 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://ui/theme.tres" type="Theme" id=1]
+[ext_resource path="res://ui/modSubMsg/minModSubItem.gd" type="Script" id=2]
+[ext_resource path="res://res/eff/bk.png" type="Texture" id=3]
+[ext_resource path="res://res/ui/kuang.png" type="Texture" id=4]
+
+[node name="TextureButton" type="TextureRect"]
+margin_right = 249.0
+margin_bottom = 289.0
+rect_min_size = Vector2( 249, 289 )
+theme = ExtResource( 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 4 )
+patch_margin_left = 13
+patch_margin_top = 12
+patch_margin_right = 12
+patch_margin_bottom = 11
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 44.0
+margin_right = -4.0
+margin_bottom = -4.0
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_right = 245.0
+margin_bottom = 54.0
+text = "xxx4444444444441111111111111111255555555555555555555555555555"
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 8.54999
+margin_top = 239.55
+margin_right = 82.55
+margin_bottom = 281.55
+rect_scale = Vector2( 1.3, 1.3 )
+text = "已下载"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CheckBox" type="CheckBox" parent="."]
+margin_left = 144.273
+margin_top = 238.796
+margin_right = 216.273
+margin_bottom = 280.796
+rect_scale = Vector2( 1.3, 1.3 )
+text = "禁用"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect2" type="Sprite" parent="CheckBox"]
+self_modulate = Color( 0.133333, 0.133333, 0.133333, 1 )
+show_behind_parent = true
+position = Vector2( 33.3947, 23.3387 )
+scale = Vector2( 40.9107, 13.3585 )
+texture = ExtResource( 3 )
+[connection signal="request_completed" from="HTTPRequest" to="." method="_on_HTTPRequest_request_completed"]
+[connection signal="pressed" from="CheckBox" to="." method="_on_CheckBox_pressed"]

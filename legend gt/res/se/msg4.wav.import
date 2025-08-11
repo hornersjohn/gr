@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/msg4.wav-20236f638ade1cac931e008a484827ad.sample"
+
+[deps]
+
+source_file="res://res/se/msg4.wav"
+dest_files=[ "res://.import/msg4.wav-20236f638ade1cac931e008a484827ad.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

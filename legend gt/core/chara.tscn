@@ -1,0 +1,404 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://res/shader/baTi.shader" type="Shader" id=1]
+[ext_resource path="res://core/chara.gd" type="Script" id=2]
+[ext_resource path="res://core/hpBar.tscn" type="PackedScene" id=4]
+[ext_resource path="res://core/sprite.gd" type="Script" id=5]
+[ext_resource path="res://ui/chaItemList/chaItemList.tscn" type="PackedScene" id=6]
+[ext_resource path="res://core/obj.tscn" type="PackedScene" id=7]
+[ext_resource path="res://ui/theme.tres" type="Theme" id=8]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 1 )
+shader_param/outline_width = 0.03
+shader_param/outline_color = Plane( 255, 255, 0, 255 )
+
+[sub_resource type="Animation" id=2]
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("spr/normal/Node2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.05, 0.25 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.29277, -34.5721 ), Vector2( 14.2928, -34.5721 ), Vector2( 0.29277, -34.5721 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("spr/normal/Node2D:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.05, 0.25 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0 ]
+}
+tracks/2/type = "method"
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0.05 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "dang"
+} ]
+}
+
+[sub_resource type="Animation" id=3]
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("spr/normal/Node2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.05, 0.25 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.29277, -34.5721 ), Vector2( 0.29277, -24.5721 ), Vector2( 0.29277, -34.5721 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("spr/normal/Node2D:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.05, 0.25 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0 ]
+}
+tracks/2/type = "method"
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0.05 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "dang"
+} ]
+}
+
+[sub_resource type="Animation" id=4]
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("spr/normal/Node2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.05, 0.25 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.29277, -34.5721 ), Vector2( 0.29277, -43.5721 ), Vector2( 0.29277, -34.5721 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("spr/normal/Node2D:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.05, 0.25 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0 ]
+}
+tracks/2/type = "method"
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0.05 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "dang"
+} ]
+}
+
+[sub_resource type="Animation" id=5]
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("spr/normal/Node2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.05, 0.25 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.29277, -34.5721 ), Vector2( 14.2928, -34.5721 ), Vector2( 0.29277, -34.5721 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("spr/normal/Node2D:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.05, 0.25 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0 ]
+}
+tracks/2/type = "method"
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0.05 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "dang"
+} ]
+}
+
+[sub_resource type="Animation" id=6]
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("spr/normal/Node2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.29277, -34.5721 ), Vector2( 0.29277, -34.5721 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("spr/normal/Node2D:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("spr/normal/Node2D:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( -1, 1 ), Vector2( 1, 1 ), Vector2( -1, 1 ), Vector2( 1, 1 ), Vector2( 0.0399987, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath(".:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "evo"
+tracks/0/type = "value"
+tracks/0/path = NodePath("spr/normal/Node2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.29277, -34.5721 ), Vector2( 0.29277, -34.5721 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("spr/normal/Node2D:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("spr/normal/Node2D:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.0399987, 1 ), Vector2( 1, 1 ), Vector2( -1, 1 ), Vector2( 1, 1 ), Vector2( -1, 1 ), Vector2( 1, 1 ), Vector2( 1.5, 1.5 ), Vector2( 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+length = 0.5
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("spr/normal/Node2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.29277, -34.5721 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("spr/normal/Node2D:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("spr/normal/Node2D:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=9]
+tracks/0/type = "value"
+tracks/0/path = NodePath("spr/normal/Node2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.5, 0.7, 1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.29277, -34.5721 ), Vector2( 0.29277, -40.5721 ), Vector2( 0.29277, -34.5721 ), Vector2( 0.29277, -40.5721 ), Vector2( 0.29277, -34.5721 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("spr/normal/Node2D:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.2, 0.5, 0.7, 1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0, 0.0, 0.0 ]
+}
+
+[node name="chara" instance=ExtResource( 7 )]
+script = ExtResource( 2 )
+
+[node name="Node2D" type="Node2D" parent="spr/normal" index="0"]
+position = Vector2( 0.29277, -34.5721 )
+
+[node name="Sprite" type="TextureRect" parent="spr/normal/Node2D" index="0"]
+material = SubResource( 1 )
+use_parent_material = true
+margin_right = 11.0
+margin_bottom = 38.0
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tween" type="Tween" parent="spr/normal/Node2D/Sprite" index="0"]
+
+[node name="aiTimer" type="Timer" parent="ex" index="1"]
+wait_time = 0.06
+one_shot = true
+
+[node name="ui" type="Node2D" parent="." index="3"]
+
+[node name="hpBar" parent="ui" index="0" instance=ExtResource( 4 )]
+position = Vector2( -30.1272, -55.1138 )
+
+[node name="items" parent="ui" index="1" instance=ExtResource( 6 )]
+margin_left = -37.5491
+margin_top = -101.318
+margin_right = 2.45091
+margin_bottom = -61.3178
+
+[node name="Label" type="Label" parent="ui" index="2"]
+visible = false
+margin_left = -19.245
+margin_top = -100.376
+margin_right = 20.755
+margin_bottom = -86.3758
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="chaName" type="Label" parent="ui" index="3"]
+margin_left = -82.0
+margin_top = 3.0
+margin_right = 85.0
+margin_bottom = 45.0
+theme = ExtResource( 8 )
+text = "摩西限制很强很厉害"
+align = 1
+autowrap = true
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="4"]
+anims/atk = SubResource( 2 )
+anims/atkDown = SubResource( 3 )
+anims/atkUp = SubResource( 4 )
+anims/atkYuan = SubResource( 5 )
+anims/del = SubResource( 6 )
+anims/evo = SubResource( 7 )
+anims/idle = SubResource( 8 )
+anims/move = SubResource( 9 )
+[connection signal="timeout" from="ex/aiTimer" to="." method="ai_timeout"]
+
+[editable path="ui/items"]

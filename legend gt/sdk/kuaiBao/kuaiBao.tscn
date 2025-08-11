@@ -1,0 +1,59 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://sdk/kuaiBao/kuaiBao.gd" type="Script" id=1]
+[ext_resource path="res://sdk/kuaiBao/logo.png" type="Texture" id=2]
+
+[sub_resource type="Animation" id=1]
+resource_name = "idle"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("logo:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1.5, 2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[node name="kuaiBao" type="Node"]
+script = ExtResource( 1 )
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+timeout = 10
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="logo" type="Control" parent="CanvasLayer"]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CanvasLayer/logo"]
+anims/idle = SubResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer/logo"]
+margin_right = 1645.0
+margin_bottom = 831.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="logo" type="Sprite" parent="CanvasLayer/logo"]
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 800.542, 411.349 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 2 )
+
+[node name="HTTPRequest2" type="HTTPRequest" parent="."]
+timeout = 10
+
+[connection signal="request_completed" from="HTTPRequest" to="." method="_on_HTTPRequest_request_completed"]
+[connection signal="animation_finished" from="CanvasLayer/logo/AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
+[connection signal="request_completed" from="HTTPRequest2" to="." method="_on_HTTPRequest2_request_completed"]

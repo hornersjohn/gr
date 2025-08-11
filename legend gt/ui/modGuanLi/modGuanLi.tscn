@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/msgBase/msgBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ui/modGuanLi/modGuanLi.gd" type="Script" id=2]
+
+[node name="Control" instance=ExtResource( 1 )]
+margin_top = 62.0
+window_title = "mod管理"
+script = ExtResource( 2 )
+
+[node name="ItemList" type="ScrollContainer" parent="." index="1"]
+margin_left = 98.0
+margin_top = 89.0
+margin_right = 1551.0
+margin_bottom = 619.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ItemList" index="0"]
+
+[node name="Button" type="Button" parent="." index="2"]
+margin_left = 724.274
+margin_top = 661.179
+margin_right = 985.274
+margin_bottom = 709.554
+text = "保存"
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

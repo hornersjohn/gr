@@ -1,0 +1,77 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/theme.tres" type="Theme" id=1]
+[ext_resource path="res://sdk/kuaiBao/jiHuo.gd" type="Script" id=2]
+
+[node name="MsgBaseX" type="Popup"]
+margin_left = 319.948
+margin_top = 54.7424
+margin_right = 1370.95
+margin_bottom = 400.742
+theme = ExtResource( 1 )
+popup_exclusive = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 2.0
+margin_top = -38.0
+margin_right = 1039.0
+margin_bottom = 339.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="LineEdit" parent="Panel"]
+margin_left = 100.0
+margin_top = 106.0
+margin_right = 895.0
+margin_bottom = 148.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Panel"]
+margin_left = 344.001
+margin_top = 183.0
+margin_right = 670.001
+margin_bottom = 235.376
+text = "激活"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button3" type="Button" parent="Panel"]
+margin_left = 344.001
+margin_top = 239.0
+margin_right = 670.001
+margin_bottom = 291.376
+text = "查看激活码获取教程"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="Panel"]
+margin_left = 344.001
+margin_top = 293.545
+margin_right = 670.001
+margin_bottom = 345.921
+text = "退出游戏"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel"]
+margin_left = 101.0
+margin_top = 48.0
+margin_right = 893.0
+margin_bottom = 90.0
+text = "输入激活码"
+align = 1
+[connection signal="gui_input" from="Panel" to="." method="_on_Panel_gui_input"]
+[connection signal="gui_input" from="Panel/LineEdit" to="." method="_on_LineEdit_gui_input"]
+[connection signal="pressed" from="Panel/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Panel/Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="Panel/Button2" to="." method="_on_Button2_pressed"]

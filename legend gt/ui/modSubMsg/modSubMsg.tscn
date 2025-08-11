@@ -1,0 +1,150 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://ui/msgBase/msgBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ui/modSubMsg/modSubMsg.gd" type="Script" id=2]
+
+[sub_resource type="ButtonGroup" id=1]
+
+[sub_resource type="ButtonGroup" id=2]
+
+[node name="Control" instance=ExtResource( 1 )]
+margin_top = 41.0
+window_title = "订阅和安装"
+script = ExtResource( 2 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." index="0"]
+margin_left = 222.0
+margin_top = 41.0
+margin_right = 1568.0
+margin_bottom = 599.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer" index="0"]
+columns = 9
+
+[node name="HTTPRequest" type="HTTPRequest" parent="." index="2"]
+
+[node name="VBoxContainer" type="Control" parent="." index="3"]
+margin_left = 32.6599
+margin_top = 45.5137
+margin_right = 72.6599
+margin_bottom = 85.5137
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Button" parent="VBoxContainer" index="0"]
+margin_right = 111.0
+margin_bottom = 48.3754
+toggle_mode = true
+pressed = true
+group = SubResource( 1 )
+text = "一周最热"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2" type="Button" parent="VBoxContainer" index="1"]
+margin_left = 1.48865
+margin_top = 120.553
+margin_right = 111.0
+margin_bottom = 168.928
+toggle_mode = true
+group = SubResource( 1 )
+text = "三月最热"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="3" type="Button" parent="VBoxContainer" index="2"]
+margin_left = 1.48865
+margin_top = 179.484
+margin_right = 111.0
+margin_bottom = 227.859
+toggle_mode = true
+group = SubResource( 1 )
+text = "有史最热"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="4" type="Button" parent="VBoxContainer" index="3"]
+margin_top = 59.9554
+margin_right = 111.0
+margin_bottom = 108.331
+toggle_mode = true
+group = SubResource( 1 )
+text = "最新"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="VBoxContainer" index="4"]
+margin_left = 1.48865
+margin_top = 315.618
+margin_right = 113.696
+margin_bottom = 363.993
+toggle_mode = true
+group = SubResource( 1 )
+text = "订阅的物品"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." index="4"]
+margin_left = 742.314
+margin_top = 694.705
+margin_right = 898.314
+margin_bottom = 742.705
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Button" parent="HBoxContainer" index="0"]
+margin_right = 29.2075
+margin_bottom = 52.3754
+toggle_mode = true
+pressed = true
+group = SubResource( 2 )
+text = "1"
+
+[node name="2" type="Button" parent="HBoxContainer" index="1"]
+margin_left = 33.0
+margin_right = 62.2075
+margin_bottom = 52.3754
+toggle_mode = true
+group = SubResource( 2 )
+text = "1"
+
+[node name="3" type="Button" parent="HBoxContainer" index="2"]
+margin_left = 66.0
+margin_right = 95.2075
+margin_bottom = 52.3754
+toggle_mode = true
+group = SubResource( 2 )
+text = "1"
+
+[node name="4" type="Button" parent="HBoxContainer" index="3"]
+margin_left = 99.0
+margin_right = 128.208
+margin_bottom = 52.3754
+toggle_mode = true
+group = SubResource( 2 )
+text = "1"
+
+[node name="5" type="Button" parent="HBoxContainer" index="4"]
+margin_left = 132.0
+margin_right = 161.208
+margin_bottom = 52.3754
+toggle_mode = true
+group = SubResource( 2 )
+text = "1"
+[connection signal="request_completed" from="HTTPRequest" to="." method="_on_HTTPRequest_request_completed"]
+[connection signal="pressed" from="VBoxContainer/1" to="." method="_on_1_pressed"]
+[connection signal="pressed" from="VBoxContainer/2" to="." method="_on_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/3" to="." method="_on_3_pressed"]
+[connection signal="pressed" from="VBoxContainer/4" to="." method="_on_4_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_Button_pressed"]

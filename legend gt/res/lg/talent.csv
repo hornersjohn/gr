@@ -1,0 +1,57 @@
+﻿key,zh_CN,en,ja
+结霜强化,结霜强化,Freezing Domain,霜の強化
+蜗牛训练,蜗牛训练,Snails Servants,カタツムリの訓練
+战斗时 你的所有生物 承受回复效果提升 %d%%,战斗时 你的所有生物 承受回复效果提升 %d%%,"In battle, all friendly creature has %d%% increased healing received",戦闘中、すべてのクリーチャーは回復効果が％d %%増加します
+急速强化,急速强化,Agility,急速な強化
+蜗牛系列生物 提升伤害 和 减少承受伤害 各 %d%%,蜗牛系列生物 提升伤害 和 减少承受伤害 各 %d%%,Creatures from the Snails tree have %d%% increased damage output and damage mitigation,カタツムリのクリーチャーはダメージを増やし、ダメージをそれぞれ％d %%減らします
+哥布林训练,哥布林训练,Goblin Savagery,ゴブリンの訓練
+烧灼强化,烧灼强化,Heatwave,燃焼強化
+战斗结束额外获得%d经验,战斗结束额外获得%d经验,Gain additional %d%% exp at the end of each battle,戦いの終わりに％dの経験値を追加します
+战斗结束场上和场下单位都额外恢复%d%%生命值,战斗结束场上和场下单位都额外恢复%d%%生命值,Heal additional %d%% Hp at the end of each battle,戦闘の終わりに、フィールドの内外にいるユニットは、ヘルスの％d %%を回復します
+野兽系列生物 提升伤害 和 减少承受伤害 各 %d%%,野兽系列生物 提升伤害 和 减少承受伤害 各 %d%%,Creatures from the Beast tree have %d%% increased damage output and damage mitigation,ビーストシリーズのクリーチャーは、ダメージを増やし、ダメージをそれぞれ％d %%減らします
+龙系训练,龙系训练,Dragonia,ドラゴントレーニング
+你的[狂怒]效果增强%d%%,你的[狂怒]效果增强%d%%,[Berserked] effect is %d%% stronger,[激怒]の効果が％d %%増加します
+野兽训练,野兽训练,Predators,獣の訓練
+失明强化,失明强化,Concealed,失明の改善
+中毒强化,中毒强化,Venom,中毒の強化
+女兵训练,女兵训练,Maiden Maneuver,女性兵士の訓練
+战斗时 你的所有生物 物理防御提升 %d%%,战斗时 你的所有生物 物理防御提升 %d%%,"In battle, all friendly creature has increased %d%% defence",戦闘中、すべてのクリーチャーの物理防御力が％d %%増加します
+狂怒强化,狂怒强化,Frenzy,怒りの強化
+战斗时 你的所有生物 物理攻击提升 %d%%,战斗时 你的所有生物 物理攻击提升 %d%%,"In battle, all friendly creature has increased %d%% attack",戦闘中、すべてのクリーチャーの物理攻撃は％d %%増加します
+你的[魔御]效果增强%d%%,你的[魔御]效果增强%d%%,[Magic Armored] effect is %d%% stronger,[マジックロイヤル]の効果が％d %%向上します
+你对敌人的[烧灼]效果增强%d%%,你对敌人的[烧灼]效果增强%d%%,[Burning] effect is %d%% stronger,敵に対する[焦げ]の効果が％d %%増加します
+龙系列生物 提升伤害 和 减少承受伤害 各 %d%%,龙系列生物 提升伤害 和 减少承受伤害 各 %d%%,Creatures from the Dragons tree have %d%% increased damage output and damage mitigation,ドラゴンクリーチャーは、ダメージを増やし、ダメージをそれぞれ％d %%減らします
+经验,经验,Trainers,経験
+魔御强化,魔御强化,Enchanted Armored,魔法の強化
+修女系列生物 提升伤害 和 减少承受伤害 各 %d%%,修女系列生物 提升伤害 和 减少承受伤害 各 %d%%,Creatures from the Nuns tree have %d%% increased damage output and damage mitigation,修道女のクリーチャーはダメージを増やし、ダメージをそれぞれ％d %%減らします
+女兵系列生物 提升伤害 和 减少承受伤害 各 %d%%,女兵系列生物 提升伤害 和 减少承受伤害 各 %d%%,Creatures from the Maiden tree have %d%% increased damage output and damage mitigation,女性兵士シリーズのクリーチャーは、ダメージを増やし、％d %%受けるダメージを減らします
+你的[抵御]效果增强%d%%,你的[抵御]效果增强%d%%,[Armored] effect is %d%% stronger,[防御]効果が％d %%向上します
+回复掌握,回复掌握,Revitalize,返信マスター
+运筹,运筹,Tactics,操作
+活尸系列生物 提升伤害 和 减少承受伤害 各 %d%%,活尸系列生物 提升伤害 和 减少承受伤害 各 %d%%,Creatures from the Corpses tree have %d%% increased damage output and damage mitigation,生き物はダメージを増やし、ダメージをそれぞれ％d %%減らします
+你对敌人的[结霜]效果增强%d%%,你对敌人的[结霜]效果增强%d%%,[Frozen] effect is %d%% stronger,敵への[霜]効果が％d %%増加します
+战斗结束额外获得%d金币,战斗结束额外获得%d金币,Gain additional %d%% coins at the end of each battle,戦闘終了時に％d枚のコインを追加で獲得
+体术掌握,体术掌握,Adrenaline,習得
+坚韧掌握,坚韧掌握,Endurance,粘り強さ
+男兵训练,男兵训练,Fearless warriors,男性兵士の訓練
+你对敌人的[中毒]效果增强%d%%,你对敌人的[中毒]效果增强%d%%,[Poisoned] effect is %d%% stronger,敵に対する[毒]の効果が％d %%増加します
+修女训练,修女训练,Life of Prayer,修道女のトレーニング
+你对敌人的[流血]效果增强%d%%,你对敌人的[流血]效果增强%d%%,[Hemorrhaged] effect is %d%% stronger,敵への[出血]効果が％d %%増加します
+植物训练,植物训练,Photosynthesis,植物育成
+男兵系列生物 提升伤害 和 减少承受伤害 各 %d%%,男兵系列生物 提升伤害 和 减少承受伤害 各 %d%%,Creatures from the warriors tree have %d%% increased damage output and damage mitigation,男性兵士のクリーチャーは、ダメージを増加させ、ダメージをそれぞれ％d %%減少させます
+战斗时 你的所有生物 技能冷却速度提升 %d%%,战斗时 你的所有生物 技能冷却速度提升 %d%%,"In battle, all friendly creature has increased %d%% reduced cooldown",戦闘中、すべてのクリーチャーのスキルのクールダウンが％d %%増加します
+你的[急速]效果增强%d%%,你的[急速]效果增强%d%%,[Hasted] effect is %d%% stronger,[ヘイスト]効果が％d %%向上します
+恢复,恢复,First Aid,戻す
+战斗时 你的所有生物 魔法防御提升 %d%%,战斗时 你的所有生物 魔法防御提升 %d%%,"In battle, all friendly creature has increased %d%% magic defence",戦闘中、すべてのクリーチャーは魔法防御力が％d %%増加します
+抵御强化,抵御强化,Enhanced Armored,身を守ります
+精灵训练,精灵训练,Pixie Magic,ウィザードトレーニング
+哥布林系列生物 提升伤害 和 减少承受伤害 各 %d%%,哥布林系列生物 提升伤害 和 减少承受伤害 各 %d%%,Creatures from the Goblin tree have %d%% increased damage output and damage mitigation,ゴブリンのクリーチャーは、ダメージを増やし、ダメージをそれぞれ％d %%減らします
+流血强化,流血强化,Surgeon,出血
+法抗掌握,法抗掌握,Spell Shield,法の抵抗
+战斗时 你的所有生物 法强提升 %d%%,战斗时 你的所有生物 法强提升 %d%%,"In battle, all friendly creature has increased %d%% magic attack",戦闘中、すべてのクリーチャーの魔法力は％d %%増加します
+魔法掌握,魔法掌握,Magical Energies,魔法の習得
+植物系列生物 提升伤害 和 减少承受伤害 各 %d%%,植物系列生物 提升伤害 和 减少承受伤害 各 %d%%,Creatures from the Plants tree have %d%% increased damage output and damage mitigation,植物シリーズのクリーチャーはダメージを増やし、ダメージを％d %%減らします
+精灵系列生物 提升伤害 和 减少承受伤害 各 %d%%,精灵系列生物 提升伤害 和 减少承受伤害 各 %d%%,Creatures from the Pixies tree have %d%% increased damage output and damage mitigation,魔神クリーチャーは、ダメージを増やし、ダメージをそれぞれ％d %%減らします
+冷却掌握,冷却掌握,Perfect Timer,冷却マスタリー
+你对敌人的[失明]效果增强%d%%,你对敌人的[失明]效果增强%d%%,[Blinded] effect is %d%% stronger,敵に対する[ブラインド]効果が％d %%増加します
+活尸训练,活尸训练,Necromancy,ライブトレーニング

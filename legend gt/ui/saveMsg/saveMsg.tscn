@@ -1,0 +1,62 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/msgBaseX/msgBaseX.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ui/saveMsg/saveMsg.gd" type="Script" id=2]
+
+[node name="saveMsg" instance=ExtResource( 1 )]
+visible = true
+script = ExtResource( 2 )
+
+[node name="Panel" type="Panel" parent="." index="0"]
+margin_left = 266.0
+margin_top = 86.0
+margin_right = 1413.0
+margin_bottom = 551.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel" index="0"]
+margin_left = 80.0
+margin_top = 106.0
+margin_right = 1082.0
+margin_bottom = 404.0
+text = "如果你使用了Mod，存档大概率出现问题，请谨慎保存！
+
+这是因为每个Mod都有专属的对象数据，除非Mod为其订制了存档功能，否则无法完整的保存数据。"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Panel" index="1"]
+margin_left = 321.0
+margin_top = 279.0
+margin_right = 518.0
+margin_bottom = 331.375
+text = "保存"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="Panel" index="2"]
+margin_left = 593.0
+margin_top = 279.0
+margin_right = 790.0
+margin_bottom = 331.375
+text = "取消"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button3" type="Button" parent="Panel" index="3"]
+margin_left = 457.21
+margin_top = 361.106
+margin_right = 654.21
+margin_bottom = 413.481
+text = "不保存直接退出"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Panel/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Panel/Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="Panel/Button3" to="." method="_on_Button3_pressed"]

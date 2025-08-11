@@ -1,0 +1,51 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/theme.tres" type="Theme" id=1]
+[ext_resource path="res://sdk/kuaiBao/gengXin.gd" type="Script" id=2]
+
+[node name="Popup" type="Popup"]
+margin_right = 1642.0
+margin_bottom = 835.0
+theme = ExtResource( 1 )
+popup_exclusive = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 288.0
+margin_top = 162.0
+margin_right = 1375.0
+margin_bottom = 634.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+margin_left = 70.0
+margin_top = 86.0
+margin_right = 1012.0
+margin_bottom = 261.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Panel"]
+margin_left = 423.497
+margin_top = 281.112
+margin_right = 637.497
+margin_bottom = 345.112
+text = "前往更新"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="Panel"]
+margin_left = 423.497
+margin_top = 355.575
+margin_right = 637.497
+margin_bottom = 419.575
+text = "下次更新"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Panel/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Panel/Button2" to="." method="_on_Button2_pressed"]

@@ -1,0 +1,136 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://ui/msgBase/msgBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ui/testMsg/testMsg.gd" type="Script" id=2]
+[ext_resource path="res://res/ui/kuang.png" type="Texture" id=3]
+
+[node name="Control" instance=ExtResource( 1 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -237.5
+margin_top = -299.5
+margin_right = 237.5
+margin_bottom = 299.5
+window_title = "测试"
+script = ExtResource( 2 )
+
+[node name="addCha" type="NinePatchRect" parent="." index="1"]
+margin_left = 36.0
+margin_top = 94.0
+margin_right = 445.0
+margin_bottom = 158.0
+texture = ExtResource( 3 )
+patch_margin_left = 12
+patch_margin_top = 12
+patch_margin_right = 12
+patch_margin_bottom = 9
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="LineEdit" parent="addCha" index="0"]
+margin_left = 25.0
+margin_top = 13.0
+margin_right = 222.0
+margin_bottom = 46.0
+
+[node name="Button" type="Button" parent="addCha" index="1"]
+margin_left = 249.0
+margin_top = 9.0
+margin_right = 393.0
+margin_bottom = 52.3754
+text = "获得角色"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="addItem" type="NinePatchRect" parent="." index="2"]
+margin_left = 36.0
+margin_top = 173.0
+margin_right = 445.0
+margin_bottom = 237.0
+texture = ExtResource( 3 )
+patch_margin_left = 12
+patch_margin_top = 12
+patch_margin_right = 12
+patch_margin_bottom = 9
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="LineEdit" parent="addItem" index="0"]
+margin_left = 25.0
+margin_top = 13.0
+margin_right = 222.0
+margin_bottom = 46.0
+
+[node name="Button" type="Button" parent="addItem" index="1"]
+margin_left = 249.0
+margin_top = 9.0
+margin_right = 393.0
+margin_bottom = 52.3754
+text = "获得装备"
+
+[node name="addGold" type="NinePatchRect" parent="." index="3"]
+margin_left = 36.0
+margin_top = 252.0
+margin_right = 445.0
+margin_bottom = 316.0
+texture = ExtResource( 3 )
+patch_margin_left = 12
+patch_margin_top = 12
+patch_margin_right = 12
+patch_margin_bottom = 9
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="SpinBox" parent="addGold" index="0"]
+margin_left = 25.0
+margin_top = 13.0
+margin_right = 222.0
+margin_bottom = 46.0
+max_value = 10000.0
+value = 100.0
+
+[node name="Button" type="Button" parent="addGold" index="1"]
+margin_left = 249.0
+margin_top = 9.0
+margin_right = 393.0
+margin_bottom = 52.3754
+text = "获得金币"
+
+[node name="addIEmp" type="NinePatchRect" parent="." index="4"]
+margin_left = 36.0
+margin_top = 331.0
+margin_right = 445.0
+margin_bottom = 395.0
+texture = ExtResource( 3 )
+patch_margin_left = 12
+patch_margin_top = 12
+patch_margin_right = 12
+patch_margin_bottom = 9
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="SpinBox" parent="addIEmp" index="0"]
+margin_left = 25.0
+margin_top = 13.0
+margin_right = 222.0
+margin_bottom = 46.0
+max_value = 10000.0
+value = 100.0
+
+[node name="Button" type="Button" parent="addIEmp" index="1"]
+margin_left = 249.0
+margin_top = 9.0
+margin_right = 393.0
+margin_bottom = 52.3754
+text = "获得经验"
+[connection signal="pressed" from="addCha/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="addItem/Button" to="." method="_on_Button_pressed2"]
+[connection signal="pressed" from="addGold/Button" to="." method="_on_Button_pressed3"]
+[connection signal="pressed" from="addIEmp/Button" to="." method="_on_Button_pressed4"]

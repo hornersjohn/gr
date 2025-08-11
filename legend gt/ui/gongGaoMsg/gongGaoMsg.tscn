@@ -1,0 +1,59 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/theme.tres" type="Theme" id=1]
+[ext_resource path="res://ui/gongGaoMsg/gongGaoMsg.gd" type="Script" id=2]
+
+[node name="WindowDialog" type="WindowDialog"]
+visible = true
+margin_left = 222.0
+margin_top = 136.0
+margin_right = 1412.0
+margin_bottom = 654.0
+theme = ExtResource( 1 )
+popup_exclusive = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 81.0
+margin_top = 74.0
+margin_right = 1105.0
+margin_bottom = 421.0
+bbcode_enabled = true
+bbcode_text = "本游戏手机版已免费开放
+
+维护Mod服务器是比不小的开支，也许哪天就欠费了
+游戏在BOSS战奖励增加了激励视频广告，希望能延长这些开支
+如您喜欢本游戏，可以支持作者的新游戏：
+
+[url]https://store.steampowered.com/app/1595280/CardMaker[/url]
+
+感谢游玩"
+text = "本游戏手机版已免费开放
+
+维护Mod服务器是比不小的开支，也许哪天就欠费了
+游戏在BOSS战奖励增加了激励视频广告，希望能延长这些开支
+如您喜欢本游戏，可以支持作者的新游戏：
+
+https://store.steampowered.com/app/1595280/CardMaker
+
+感谢游玩"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 502.0
+margin_top = 437.0
+margin_right = 669.0
+margin_bottom = 489.375
+text = "关闭"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="popup_hide" from="." to="." method="_on_WindowDialog_popup_hide"]
+[connection signal="meta_clicked" from="RichTextLabel" to="." method="_on_RichTextLabel_meta_clicked"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

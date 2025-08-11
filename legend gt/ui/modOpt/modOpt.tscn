@@ -1,0 +1,51 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/msgBase/msgBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ui/modOpt/modOpt.gd" type="Script" id=2]
+
+[node name="option" instance=ExtResource( 1 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -189.0
+margin_top = -167.0
+margin_right = 189.0
+margin_bottom = 236.0
+window_title = "菜单"
+script = ExtResource( 2 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." index="1"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -71.5
+margin_top = -154.0
+margin_right = 71.5
+margin_bottom = 154.0
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="tuPu3" type="Button" parent="VBoxContainer" index="0"]
+margin_top = 72.0
+margin_right = 174.0
+margin_bottom = 124.375
+text = "订阅和下载"
+
+[node name="tuPu" type="Button" parent="VBoxContainer" index="1"]
+margin_top = 128.0
+margin_right = 174.0
+margin_bottom = 180.375
+text = "mod管理"
+
+[node name="tuPu2" type="Button" parent="VBoxContainer" index="2"]
+margin_top = 184.0
+margin_right = 174.208
+margin_bottom = 236.375
+text = "上传和更新mod"
+[connection signal="pressed" from="VBoxContainer/tuPu3" to="." method="_on_tuPu3_pressed"]
+[connection signal="pressed" from="VBoxContainer/tuPu" to="." method="_on_tuPu_pressed"]
+[connection signal="pressed" from="VBoxContainer/tuPu2" to="." method="_on_tuPu2_pressed"]

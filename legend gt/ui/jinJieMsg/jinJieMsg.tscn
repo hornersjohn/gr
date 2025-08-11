@@ -1,0 +1,138 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://ui/msgBase/msgBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ui/jinJieMsg/jinJieMsg.gd" type="Script" id=2]
+[ext_resource path="res://res/ui/button_arrow.png" type="Texture" id=3]
+[ext_resource path="res://res/ui/button_arrow2.png" type="Texture" id=4]
+[ext_resource path="res://res/ui/kuang.png" type="Texture" id=5]
+
+[node name="Control" instance=ExtResource( 1 )]
+visible = true
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -470.5
+margin_top = -231.0
+margin_right = 470.5
+margin_bottom = 231.0
+window_title = "难度"
+script = ExtResource( 2 )
+
+[node name="NinePatchRect" type="NinePatchRect" parent="." index="1"]
+margin_left = 161.0
+margin_top = 57.0
+margin_right = 781.0
+margin_bottom = 226.0
+texture = ExtResource( 5 )
+patch_margin_left = 13
+patch_margin_top = 11
+patch_margin_right = 11
+patch_margin_bottom = 11
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="NinePatchRect" index="0"]
+margin_left = 242.552
+margin_top = 31.6654
+margin_right = 282.552
+margin_bottom = 71.6654
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="r" type="TextureButton" parent="NinePatchRect/Control" index="0"]
+margin_left = 123.184
+margin_top = 11.9316
+margin_right = 155.184
+margin_bottom = 43.9316
+rect_scale = Vector2( 1.5, 1.5 )
+texture_normal = ExtResource( 4 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="l" type="TextureButton" parent="NinePatchRect/Control" index="1"]
+margin_left = -20.0658
+margin_top = 11.9316
+margin_right = 11.9342
+margin_bottom = 43.9316
+rect_scale = Vector2( 1.5, 1.5 )
+texture_normal = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="NinePatchRect/Control" index="2"]
+margin_left = -98.7066
+margin_top = 13.3242
+margin_right = -24.7066
+margin_bottom = 55.3242
+text = "等级："
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lv" type="Label" parent="NinePatchRect/Control" index="3"]
+margin_left = 56.1634
+margin_top = 14.4968
+margin_right = 96.1634
+margin_bottom = 56.4968
+text = "6"
+align = 1
+
+[node name="info" type="Label" parent="NinePatchRect/Control" index="4"]
+margin_left = -196.006
+margin_top = 78.7817
+margin_right = 353.994
+margin_bottom = 120.782
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="." index="2"]
+margin_left = 163.0
+margin_top = 240.0
+margin_right = 783.0
+margin_bottom = 369.0
+texture = ExtResource( 5 )
+patch_margin_left = 13
+patch_margin_top = 11
+patch_margin_right = 11
+patch_margin_bottom = 11
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="wjBtn" type="Button" parent="NinePatchRect2" index="0"]
+margin_left = 239.8
+margin_top = 38.6732
+margin_right = 370.8
+margin_bottom = 101.673
+text = "无尽模式"
+
+[node name="Button" type="Button" parent="." index="3"]
+margin_left = 389.977
+margin_top = 384.679
+margin_right = 551.977
+margin_bottom = 433.054
+text = "开始"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="info" type="Label" parent="." index="4"]
+visible = false
+margin_left = 208.4
+margin_top = 134.95
+margin_right = 525.4
+margin_bottom = 167.95
+text = "1：敌方的物理防御和魔法防御提高"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="NinePatchRect/Control/r" to="." method="_on_r_pressed"]
+[connection signal="pressed" from="NinePatchRect/Control/l" to="." method="_on_l_pressed"]
+[connection signal="pressed" from="NinePatchRect2/wjBtn" to="." method="_on_wjBtn_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

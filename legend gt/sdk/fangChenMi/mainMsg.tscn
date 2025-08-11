@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://ui/theme.tres" type="Theme" id=1]
+
+[node name="Popup" type="Popup"]
+margin_right = 1634.0
+margin_bottom = 813.0
+theme = ExtResource( 1 )
+popup_exclusive = true
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 361.0
+margin_top = 95.0
+margin_right = 1312.0
+margin_bottom = 681.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Panel"]
+margin_left = 385.201
+margin_top = 491.168
+margin_right = 543.201
+margin_bottom = 543.543
+text = "我知道了"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="Panel"]
+margin_left = 383.769
+margin_top = 428.161
+margin_right = 545.769
+margin_bottom = 480.536
+text = "开启防沉迷"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+margin_left = 44.0
+margin_top = 110.0
+margin_right = 893.0
+margin_bottom = 376.0
+text = "为了呵护未成年健康成长，游戏内特别推出青年少年模式，该模式下可限制游戏时长等，请监护人主动选择，并设置监护密码。"
+__meta__ = {
+"_edit_use_anchors_": false
+}

@@ -1,0 +1,158 @@
+﻿key,zh_CN,en,ja
+完成这个难度，作为一般人已经算通关游戏！,完成这个难度，作为一般人已经算通关游戏！,You Can Brag About Beating the Game After This One,この難易度をクリアしました。一般人としてはもう通関ゲームです。
+流血,流血,Hemorrhaged,血を流す
+减少10%双抗和治疗效果，每层额外1%;每秒减少层数。,减少10%双抗和治疗效果，每层额外1%;每秒减少层数。,"1% max Hp is lost each second, further increased health loss by 0.1% per stack. The number of stacks decreases every second.",10%のダブル抗と治療効果を減少させ、各層に1%を追加し、毎秒層数を減少させる。
+获得角色,获得角色,Get Character ,役を獲得する
+图谱,图谱,Atlas,スペクトル
+精英战斗,精英战斗,Elite Battle,エリートバトル
+<!MissingKey:>,"
+经验值 +%d","
+exp +%d","
+経験値+%d"
+生命值,生命值,Hp,生命値
+魔法防御,魔法防御,Magic Defense,魔法の防御
+赌一把,赌一把,Try your Luck,賭け事をする
+获得装备,获得装备,Get Equipment,装備を獲得する
+暴击伤害增加,暴击伤害增加,Crit Damage,クリティカルダメージが増加しました
+结霜,结霜,Frozen,霜が降りる
+返回标题(保存),返回标题(保存),Title(Save),タイトルを返す(保存)
+你的单位满血复活,"你的单位满血复活！
+金币 +{gold}g","All of your units have respawned and regenerated back to full! 
+Coins +{gold}g","あなたの職場は満血で復活します。
+金貨+{ゴールド}g"
+物理吸血,物理吸血,Life Vamp,物理吸血
+<!MissingKey:清空>,清空,,
+提示,提示,Hint: ,ヒント
+减少30%攻击速度和冷却速度，每层额外减少3%，每秒减少层数。,减少30%攻击速度和冷却速度，每层额外减少3%，每秒减少层数。,"Take 30% more damage when attacked, further increased by 3% per stack. The number of stacks decreases every second.",攻撃速度30%と冷却速度を3%削減し、毎秒階数を減らす。
+负面状态,负面状态,deBuff,負の状態
+<!MissingKey:你需要通关当前等级才能解锁下一等级>,你需要通关当前等级才能解锁下一等级,Beat this level first!,今のレベルをクリアする必要があります。次のレベルをロックすることができます。
+物理穿透,物理穿透,Armor Penetration,物理的透過
+天赋|升级,天赋|升级,Perks|Upgrade,天賦がエスカレートする
+承受伤害减少,承受伤害减少,Damage Mitigations,ダメージ減少
+最大生命值,最大生命值,Max Hp,最大生命値
+精英战斗胜利！获得战利品。,精英战斗胜利！获得战利品。,You won an elite fight! Collect your treasures.,エリートバトル勝利！戦利品を獲得する。
+场上单位恢复30%HP,"场上单位恢复30%HP
+场下单位恢复60%HP
+金币 +{gold}g","Units on battlefield get regen 30%HP
+Units off battlefield get regen 60%HP
+Coins +{gold}g","フィールド上のユニットは30%HP
+フィールド下のユニットを回復して60%HP
+金貨+{gold}gを回復します。"
+玩家生命值为0！！,玩家生命值为0！！,All Hp Lost!,プレイヤーのライフは0です！
+获得经验,获得经验,Get Exp,経験を積む
+加速,加速,2x Speed,スピードを上げる
+烧灼,烧灼,Burning,焼けつく
+<!MissingKey:赌博>,赌博,Gamble,賭け事をする
+金币,金币,Coins,金貨
+难度,难度,Difficulty,難易度
+可将装备拖至生物上,可将装备拖至生物上,Three pieces of equipment can be put on each unit,装備を生物にドラッグすることができます。
+信息,信息,Info,メッセージ
+魔法穿透,魔法穿透,Magic Penetration,魔法が突き抜ける
+<!MissingKey:剪切>,剪切,,
+<!MissingKey:复制>,复制,,
+生命,生命,Hp,生命
+物理防御,物理防御,Defence,物理防御
+投降结算,投降结算,Surrender,降参決算
+BOSS战得分,BOSS战得分,Boss Fight Points,ボス戦得点
+普通攻击30%概率miss，每层额外增加3%，每秒减少层数。,普通攻击30%概率miss，每层额外增加3%，每秒减少层数。,"Normal attacks have a 30% probability of missing, further increased by 3% for each stack. Number of stacks decreases every second.",通常攻撃は30%の確率でmissを追加し、毎秒3%のレイヤー数を減らします。
+抵御,抵御,Armored,防御する
+无尽模式,无尽模式,Endless Mode,リミットレスモード
+冷却充能速度,冷却充能速度,Cooldown Reduction,冷却チャージ速度
+你已经逐渐掌握游戏。,你已经逐渐掌握游戏。,You have gradually mastered the game.,だんだんゲームをマスターしました。
+<!MissingKey:粘贴>,粘贴,,
+测试,测试,Admin,テスト
+关卡得分,关卡得分,Conquered Points,レベル得点
+开始游戏,开始游戏,New Game,ゲームを開始
+物品信息,物品信息,Item Info,アイテム情報
+创意工坊,创意工坊,Workshop,創意工房
+开始,开始,Start,開始
+攻击速度,攻击速度,Attack Speed,攻撃速度
+人口,人口,Team Size,人口
+获得魂值,获得魂值,Soul Gain,魂の値を獲得する
+战斗,战斗,Battle,戦闘
+难度等级修正总分,难度等级修正总分,Challenge Level Modifier,難易度補正の総点
+角色信息,角色信息,Creatures Info,キャラクター情報
+退出游戏,退出游戏,Quit,ゲームを終了します
+剩余生命得分,剩余生命得分,HP Points,余命得点
+总伤害,总伤害,Total Damage,総ダメージ
+升级,升级,Upgrade,級が上がる
+图谱|升级,图谱|升级,Textbook,図録がアップする
+狂怒,狂怒,Berserked,怒りが破裂する
+释放治疗效果,释放治疗效果,Healing Efficiency,治療効果を釈放する
+资源得分,资源得分,Resource Points,リソース得点
+"被攻击额外承受30%伤害,每层额外增加3%，每秒减少层数。","被攻击额外承受30%伤害,每层额外增加3%，每秒减少层数。","10% armor and magic armor is lost, healing effects are decreased by 10%, further increased by 1% extra per stack. The number of stacks decreases every second.",攻撃されると30%の追加ダメージを受け、毎秒3%の追加増加となります。
+解锁新的进阶等级成功！,解锁新的进阶等级成功！,New Challenge Level Unlocked!,ロック解除に成功した新たなステップ！
+增加20%魔法防御，每层额外增加2%，每秒减少层数。,增加20%魔法防御，每层额外增加2%，每秒减少层数。,"Increase defence by 20%, further increased by 2% per stack. The number of stacks decreases every second.",魔法防御を20%増加して、1階ごとに2%増加して、毎秒階数を減らします。
+暴击率,暴击率,Crit Chance,ぼうげき率
+等级,等级,Lv.,レベル
+上限,上限,Maxed,上限
+生物图谱,生物图谱,Creatures,生物図鑑
+增加20%攻击力，每层额外增加2%，每秒减少层数。,增加20%攻击力，每层额外增加2%，每秒减少层数。,"Increase attack by 20%, further increased by 2% for each stack. The number of stacks decreases every second.",攻撃力を20%増加させ、毎秒2%を追加して、層数を減らします。
+休息,休息,Rest,休みをとる
+<!MissingKey:重做>,重做,,
+翻开,翻开,Open,開く
+buff层数上限25，层数越高特效表现越强。,buff层数上限25，层数越高特效表现越强。,"Increase magic defence by 20%, further increased by 2% per stack. The number of stacks decreases every second.",buff層数の上限25は、層数が高いほど効果的に表現されます。
+返回,返回,Back,戻る
+关卡,关卡,Lv.,関所
+学习,学习,Learn,勉強します
+请将生物拖至场上,请将生物拖至场上,Select a unit and drag it onto the battlefield,生物をフィールドに引っ張り出してください。
+3个相同的生物会发光，点击他们可选择进化！！,3个相同的生物会发光，点击他们可选择进化！！,Three same creatures can evolve into a stronger one,3つの同じ生物が光るので、彼らをクリックして進化を選ぶことができます。
+增加20%物理防御，每层额外增加2%，每秒减少层数。,增加20%物理防御，每层额外增加2%，每秒减少层数。,"Reduce attack and skill cooldown by 30%, further increased by 3% per stack. The number of stacks decreases every second.",物理防御を20%増加させ、毎秒2%を追加し、層数を減らします。
+对规则有一定的了解,对规则有一定了解,It Is Going to Get Harder And Harder,規則についてある程度知っています。
+语言,语言,Language,言語
+BOSS战胜利！获得战利品。,BOSS战胜利！获得战利品。,Boss fight victory! Treasures await.,ボス戦勝利！戦利品を獲得する。
+战斗胜利！获得战利品。,战斗胜利！获得战利品。,You won! Collect your reward.,戦いに勝利！戦利品を獲得する。
+获得金币,获得金币,Get Coins,金貨をもらう
+治疗效果,治疗效果,Healing Received,治療効果
+上传和更新mod,上传和更新mod,Upload/Update Mod,modのアップロードと更新
+每秒减少1%的生命值，每层额外增加0.1%，每秒减少层数。,每秒减少1%的生命值，每层额外增加0.1%，每秒减少层数。,"1% max Hp is lost each second, further increased health loss by 0.1% per stack. The number of stacks decreases every second.",毎秒1%のライフ値を減らし、各層に0.1%を追加し、毎秒層数を減らす。
+通关！,通关！,Level Clear!,通関します
+关闭,关闭,Close,閉じる
+大宝藏,大宝藏,Large Chest,宝庫
+急速,急速,Hasted,急速である
+失败！,失败！,Defeat!,失敗しました
+魔御,魔御,Magic Armored,魔の御
+设置,设置,Settings,設定
+继续游戏,继续游戏,Load Game,ゲームを続ける
+<!MissingKey:撤销>,撤销,,
+小宝藏,小宝藏,Small Chest,小さな宝物
+队伍全灭！,队伍全灭！,All Friendly Units Died!,チーム全滅！
+魔法强度,魔法强度,Magic Power,魔法の強さ
+余下随机,余下随机,Random,残りのランダム
+购买,购买,Purchase,買います
+制作名单,制作名单,Creators,リストを作成する
+<!MissingKey:获得>,获得,New,獲得する
+mod管理,mod管理,Mod Manager,mod管理
+装备图鉴,装备图鉴,Equipment,装備図鑑
+越来越熟练了，达尔文见到你都会害羞。,越来越熟练了，达尔文见到你都会害羞。,You Are Too Good For Mr. Blushing Darwin There,だんだん上手になりました。ダーウィンはあなたに会えば恥ずかしがります。
+排行榜,排行榜,Leaderboard,ランキング
+公共状态,公共状态,Stutus Effects,公共の状態
+魔法攻击,魔法攻击,Magic Power,魔法の攻撃
+进化！,进化！,Evolve!,進化！
+闪避,闪避,Evasion,身をかわす
+角色升级,角色升级,Upgraded,アップグレード
+伤害加成,伤害加成,Damage Boost,ダメージアップ
+菜单,菜单,Menu,メニュー
+继续,继续,Next,次
+全部取消,全部取消,Deselect All,すべてキャンセル
+攻击范围,攻击范围,Attack Range,攻撃範囲
+<!MissingKey:教程>,教程,Tutorial,教程
+商店,商店,Shop,店
+难度等级,难度等级,Challenge Level,難易度
+增益状态,增益状态,Buff,状態を得る
+说明,说明,Explain,説明
+确定,确定,Confirm,を選択します
+选择本局出现生物系列,选择本局出现生物系列,Choose our biological series,この局の生物シリーズを選択してください。
+魔法吸血,魔法吸血,Magic Vamp,魔法の吸血鬼
+失明,失明,Blinded,視力を失う
+物理攻击,物理攻击,Attack,物理攻撃
+中毒,中毒,Poisoned,中毒する
+取消,取消,Cancel,キャンセル
+你升级了，人口提升！,你升级了，人口提升！,"You're upgraded, population increased",あなたがアップグレードされ、人口がアップグレードされます！
+选择本局出现的道具,选择本局出现的道具,Choose the props that appear in this bureau,ゲームに出てくるアイテムを選択します。
+增加20%攻击速度，每层额外增加2%，每秒减少层数。,增加20%攻击速度，每层额外增加2%，每秒减少层数。,"Increase attack speed by 20%, further increased by 2% for each stack. The number of stacks decreases every second.",攻撃速度を20%増加させ、各層に2%を追加し、毎秒レイヤー数を減らします。
+你现在是一个小熟手。,你现在是一个小熟手。,A Worthy Challenge For You,あなたは今熟練者です。
+<!MissingKey:全选>,全选,,
+你占领层数,你占领层数,You Conquered Floors,あなたが層を占領します
+开始战斗,开始战斗,Battle!,戦闘を開始する
+初探游戏规则,初探游戏规则,Welcome to Legend Creature!,ゲームのルールを探る

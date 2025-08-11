@@ -1,0 +1,193 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://ui/msgBase/msgBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ui/tuPuBuff/tuPuBuff.gd" type="Script" id=2]
+[ext_resource path="res://res/eff/buff/gongJi.png" type="Texture" id=3]
+[ext_resource path="res://res/eff/buff/xueHua.png" type="Texture" id=4]
+[ext_resource path="res://res/eff/buff/shiMing.png" type="Texture" id=5]
+[ext_resource path="res://res/eff/buff/liuXue.png" type="Texture" id=6]
+[ext_resource path="res://res/eff/buff/zhonDu.png" type="Texture" id=7]
+[ext_resource path="res://res/eff/buff/shaoZhuo.png" type="Texture" id=8]
+[ext_resource path="res://res/eff/buff/moYu.png" type="Texture" id=9]
+[ext_resource path="res://res/eff/buff/diYu.png" type="Texture" id=10]
+[ext_resource path="res://res/eff/buff/gongSu.png" type="Texture" id=11]
+[ext_resource path="res://res/ui/kuang.png" type="Texture" id=12]
+
+[node name="tuPuBuff" instance=ExtResource( 1 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -370.5
+margin_top = -248.0
+margin_right = 370.5
+margin_bottom = 248.0
+window_title = "公共状态"
+script = ExtResource( 2 )
+
+[node name="NinePatchRect" type="NinePatchRect" parent="." index="1"]
+margin_left = 42.0
+margin_top = 23.0
+margin_right = 352.0
+margin_bottom = 417.0
+texture = ExtResource( 12 )
+patch_margin_left = 14
+patch_margin_top = 11
+patch_margin_right = 14
+patch_margin_bottom = 12
+
+[node name="Label" type="Label" parent="NinePatchRect" index="0"]
+margin_left = 20.0
+margin_top = 13.0
+margin_right = 92.0
+margin_bottom = 46.0
+text = "增益状态"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="NinePatchRect" index="1"]
+margin_left = 20.0
+margin_top = 205.0
+margin_right = 92.0
+margin_bottom = 238.0
+text = "负面状态"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="." index="2"]
+margin_left = 391.905
+margin_top = 23.0
+margin_right = 701.905
+margin_bottom = 417.0
+texture = ExtResource( 12 )
+patch_margin_left = 14
+patch_margin_top = 11
+patch_margin_right = 14
+patch_margin_bottom = 12
+
+[node name="ScrollContainer" type="Control" parent="." index="3"]
+margin_left = 62.0
+margin_top = 76.0
+margin_right = 328.0
+margin_bottom = 428.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer" index="0"]
+margin_right = 240.0
+margin_bottom = 40.0
+columns = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="ScrollContainer/GridContainer" index="0"]
+margin_right = 64.2075
+margin_bottom = 48.3754
+custom_colors/font_color = Color( 0.541176, 0.764706, 0.980392, 1 )
+text = "狂怒"
+icon = ExtResource( 3 )
+
+[node name="Button2" type="Button" parent="ScrollContainer/GridContainer" index="1"]
+margin_left = 68.0
+margin_right = 132.208
+margin_bottom = 48.3754
+custom_colors/font_color = Color( 0.541176, 0.764706, 0.980392, 1 )
+text = "急速"
+icon = ExtResource( 11 )
+
+[node name="Button3" type="Button" parent="ScrollContainer/GridContainer" index="2"]
+margin_left = 136.0
+margin_right = 200.208
+margin_bottom = 48.3754
+custom_colors/font_color = Color( 0.541176, 0.764706, 0.980392, 1 )
+text = "抵御"
+icon = ExtResource( 10 )
+
+[node name="Button4" type="Button" parent="ScrollContainer/GridContainer" index="3"]
+margin_left = 204.0
+margin_right = 268.208
+margin_bottom = 48.3754
+custom_colors/font_color = Color( 0.541176, 0.764706, 0.980392, 1 )
+text = "魔御"
+icon = ExtResource( 9 )
+
+[node name="GridContainer2" type="GridContainer" parent="ScrollContainer" index="1"]
+margin_left = 0.735107
+margin_top = 194.886
+margin_right = 249.735
+margin_bottom = 278.886
+columns = 4
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="ScrollContainer/GridContainer2" index="0"]
+margin_right = 65.0
+margin_bottom = 48.3754
+custom_colors/font_color = Color( 1, 0.462745, 0.462745, 1 )
+text = "失明"
+icon = ExtResource( 5 )
+
+[node name="Button2" type="Button" parent="ScrollContainer/GridContainer2" index="1"]
+margin_left = 69.0
+margin_right = 137.208
+margin_bottom = 48.3754
+custom_colors/font_color = Color( 1, 0.462745, 0.462745, 1 )
+text = "烧灼"
+icon = ExtResource( 8 )
+
+[node name="Button3" type="Button" parent="ScrollContainer/GridContainer2" index="2"]
+margin_left = 141.0
+margin_right = 205.208
+margin_bottom = 48.3754
+custom_colors/font_color = Color( 1, 0.462745, 0.462745, 1 )
+text = "结霜"
+icon = ExtResource( 4 )
+
+[node name="Button4" type="Button" parent="ScrollContainer/GridContainer2" index="3"]
+margin_left = 209.0
+margin_right = 277.208
+margin_bottom = 48.3754
+custom_colors/font_color = Color( 1, 0.462745, 0.462745, 1 )
+text = "流血"
+icon = ExtResource( 6 )
+
+[node name="Button5" type="Button" parent="ScrollContainer/GridContainer2" index="4"]
+margin_top = 52.0
+margin_right = 65.2075
+margin_bottom = 100.375
+custom_colors/font_color = Color( 1, 0.462745, 0.462745, 1 )
+text = "中毒"
+icon = ExtResource( 7 )
+
+[node name="Button" type="Button" parent="ScrollContainer" index="2"]
+margin_left = 229.377
+margin_top = 346.119
+margin_right = 284.584
+margin_bottom = 394.494
+text = "说明"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." index="4"]
+margin_left = 418.0
+margin_top = 48.0
+margin_right = 680.0
+margin_bottom = 395.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="." index="5"]
+margin_left = 403.553
+margin_top = 423.623
+margin_right = 458.76
+margin_bottom = 471.998
+text = "关闭"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="ScrollContainer/Button" to="." method="_on_Buttons_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

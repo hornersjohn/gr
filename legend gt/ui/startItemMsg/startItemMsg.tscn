@@ -1,0 +1,125 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/msgBaseX/msgBaseX.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ui/startItemMsg/startItemMsg.gd" type="Script" id=8]
+
+[node name="msgBaseX" instance=ExtResource( 1 )]
+visible = true
+script = ExtResource( 8 )
+
+[node name="Panel" type="Panel" parent="." index="0"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -817.0
+margin_top = -405.0
+margin_right = 818.0
+margin_bottom = 419.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel" index="0"]
+margin_left = 48.0
+margin_top = 108.0
+margin_right = 1576.0
+margin_bottom = 716.0
+scroll_horizontal_enabled = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="Panel/ScrollContainer" index="0"]
+custom_constants/vseparation = 36
+custom_constants/hseparation = 13
+columns = 12
+
+[node name="Label" type="Label" parent="Panel" index="1"]
+margin_left = 557.464
+margin_top = 67.0
+margin_right = 763.464
+margin_bottom = 109.0
+text = "选择本局出现的道具"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label3" type="Label" parent="Panel" index="2"]
+margin_left = 679.805
+margin_top = 12.6037
+margin_right = 999.805
+margin_bottom = 54.6037
+text = "选择本局出现的道具"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="Panel" index="3"]
+modulate = Color( 0.980392, 0.941176, 0.52549, 1 )
+margin_left = 862.838
+margin_top = 66.7207
+margin_right = 1182.84
+margin_bottom = 116.721
+text = "6"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btn_start" type="Button" parent="." index="1"]
+margin_left = 1027.85
+margin_top = 740.751
+margin_right = 1190.85
+margin_bottom = 793.126
+text = "开始游戏"
+
+[node name="btn_rnd" type="Button" parent="." index="2"]
+margin_left = 770.114
+margin_top = 744.691
+margin_right = 875.322
+margin_bottom = 797.066
+text = "余下随机"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btn_rnd2" type="Button" parent="." index="3"]
+margin_left = 474.229
+margin_top = 744.691
+margin_right = 579.437
+margin_bottom = 797.066
+text = "全部取消"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btn_exit" type="Button" parent="." index="4"]
+visible = false
+margin_left = 736.425
+margin_top = 609.106
+margin_right = 837.425
+margin_bottom = 657.481
+text = "退出"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="test_save" type="Button" parent="." index="5"]
+visible = false
+margin_left = 110.036
+margin_top = 479.334
+margin_right = 192.036
+margin_bottom = 527.709
+text = "保存"
+
+[node name="test_load" type="Button" parent="." index="6"]
+visible = false
+margin_left = 110.036
+margin_top = 560.73
+margin_right = 192.036
+margin_bottom = 609.106
+text = "读取"
+[connection signal="button_down" from="btn_start" to="." method="_on_btn_start_button_down"]
+[connection signal="button_down" from="btn_rnd" to="." method="_on_btn_rnd_button_down"]
+[connection signal="pressed" from="btn_rnd2" to="." method="_on_btn_rnd2_pressed"]
+[connection signal="button_down" from="btn_exit" to="." method="_on_btn_exit_button_down"]

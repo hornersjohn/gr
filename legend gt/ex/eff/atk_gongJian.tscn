@@ -1,0 +1,54 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://res/eff/eff.png" type="Texture" id=1]
+[ext_resource path="res://core/eff.tscn" type="PackedScene" id=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends \"res://core/eff.gd\"
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+"
+
+[sub_resource type="CanvasItemMaterial" id=2]
+blend_mode = 1
+
+[sub_resource type="Animation" id=3]
+loop = true
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("spr/normal/Sprite:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"update": 0,
+"values": [  ]
+}
+
+[node name="eff" instance=ExtResource( 2 )]
+script = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="spr/normal" index="0"]
+material = SubResource( 2 )
+position = Vector2( -2, 0 )
+texture = ExtResource( 1 )
+offset = Vector2( 1.49682, -0.500306 )
+region_enabled = true
+region_rect = Rect2( 136, 60, 23, 11 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="1"]
+autoplay = "idle"
+anims/idle = SubResource( 3 )

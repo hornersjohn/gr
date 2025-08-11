@@ -1,0 +1,46 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://ui/startItemMsg/startItem.gd" type="Script" id=1]
+[ext_resource path="res://ui/theme.tres" type="Theme" id=2]
+[ext_resource path="res://res/ui/kuang.png" type="Texture" id=3]
+
+[node name="item" type="NinePatchRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -1527.0
+margin_bottom = -691.0
+rect_min_size = Vector2( 113, 129 )
+theme = ExtResource( 2 )
+texture = ExtResource( 3 )
+patch_margin_left = 11
+patch_margin_top = 9
+patch_margin_right = 11
+patch_margin_bottom = 9
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 15.0
+margin_top = 73.0
+margin_right = 99.0
+margin_bottom = 125.375
+text = "选择"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="name_lable" type="Label" parent="."]
+visible = false
+margin_left = 3.24216
+margin_top = 1.62109
+margin_right = 105.242
+margin_bottom = 39.6211
+text = "高速匕首"
+align = 1
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

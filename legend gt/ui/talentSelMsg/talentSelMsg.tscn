@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/msgBase/msgBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ui/talentSelMsg/talentSelMsg.gd" type="Script" id=2]
+
+[node name="Control" instance=ExtResource( 1 )]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -789.0
+margin_top = -313.0
+margin_right = 793.0
+margin_bottom = 361.0
+window_title = "天赋"
+script = ExtResource( 2 )
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." index="1"]
+margin_left = 32.0
+margin_top = 69.0
+margin_right = 1553.0
+margin_bottom = 568.0
+scroll_horizontal_enabled = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer" index="0"]
+columns = 10
+
+[node name="Label" type="Label" parent="." index="2"]
+visible = false
+margin_left = 1415.0
+margin_top = 599.0
+margin_right = 1547.0
+margin_bottom = 641.0
+custom_colors/font_color = Color( 0.129412, 0.733333, 1, 1 )
+text = "hun"
+align = 2

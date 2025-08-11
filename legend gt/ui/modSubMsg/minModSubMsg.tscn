@@ -1,0 +1,148 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://ui/theme.tres" type="Theme" id=1]
+[ext_resource path="res://ui/modSubMsg/minModSubMsg.gd" type="Script" id=2]
+
+[sub_resource type="ButtonGroup" id=1]
+
+[node name="Control" type="WindowDialog"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 41.0
+theme = ExtResource( 1 )
+window_title = "订阅和下载"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+margin_left = 222.0
+margin_top = 41.0
+margin_right = 1568.0
+margin_bottom = 599.0
+scroll_horizontal_enabled = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer"]
+columns = 5
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[node name="VBoxContainer" type="Control" parent="."]
+margin_left = 32.6599
+margin_top = 45.5137
+margin_right = 72.6599
+margin_bottom = 85.5137
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Button" parent="VBoxContainer"]
+margin_right = 111.0
+margin_bottom = 48.3754
+toggle_mode = true
+pressed = true
+group = SubResource( 1 )
+text = "最新"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2" type="Button" parent="VBoxContainer"]
+margin_left = 1.48865
+margin_top = 64.553
+margin_right = 111.0
+margin_bottom = 116.928
+toggle_mode = true
+group = SubResource( 1 )
+text = "最热"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="3" type="Button" parent="VBoxContainer"]
+visible = false
+margin_left = 1.48865
+margin_top = 179.484
+margin_right = 111.0
+margin_bottom = 227.859
+toggle_mode = true
+group = SubResource( 1 )
+text = "有史最热"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="4" type="Button" parent="VBoxContainer"]
+visible = false
+margin_top = 59.9554
+margin_right = 111.0
+margin_bottom = 108.331
+toggle_mode = true
+group = SubResource( 1 )
+text = "最新"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+margin_left = 1.48865
+margin_top = 315.618
+margin_right = 113.696
+margin_bottom = 363.993
+toggle_mode = true
+group = SubResource( 1 )
+text = "下载的物品"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="page" type="Control" parent="."]
+margin_left = 810.91
+margin_top = 676.436
+margin_right = 850.91
+margin_bottom = 716.436
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="p1" type="Button" parent="page"]
+margin_left = -131.82
+margin_top = 1.29236
+margin_right = -48.6128
+margin_bottom = 53.6677
+text = "上一页"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="p2" type="Button" parent="page"]
+margin_left = 23.0
+margin_top = 2.0
+margin_right = 106.208
+margin_bottom = 54.3754
+text = "下一页"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="page"]
+margin_left = -40.0
+margin_top = 8.0
+margin_right = 15.0
+margin_bottom = 50.0
+text = "5"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="popup_hide" from="." to="." method="_on_popup_hide"]
+[connection signal="request_completed" from="HTTPRequest" to="." method="_on_HTTPRequest_request_completed"]
+[connection signal="pressed" from="VBoxContainer/1" to="." method="_on_1_pressed"]
+[connection signal="pressed" from="VBoxContainer/2" to="." method="_on_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_my_pressed"]
+[connection signal="pressed" from="page/p1" to="." method="_on_p1_pressed"]
+[connection signal="pressed" from="page/p2" to="." method="_on_p2_pressed"]

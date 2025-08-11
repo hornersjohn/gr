@@ -1,0 +1,63 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/msgBaseX/msgBaseX.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ui/jieSuan/jieSuan.gd" type="Script" id=2]
+
+[node name="msgBaseX" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="Panel" type="Panel" parent="." index="0"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -438.0
+margin_top = -390.0
+margin_right = 439.0
+margin_bottom = 401.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Panel" index="0"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -159.929
+margin_top = 280.235
+margin_right = -54.7219
+margin_bottom = 332.61
+text = "返回战场"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel" index="1"]
+margin_left = 130.0
+margin_top = 95.0
+margin_right = 757.0
+margin_bottom = 648.0
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel" index="2"]
+margin_left = 418.261
+margin_top = 11.7895
+margin_right = 474.261
+margin_bottom = 44.7895
+text = "通关！"
+
+[node name="Button2" type="Button" parent="Panel" index="3"]
+margin_left = 487.804
+margin_top = 677.637
+margin_right = 593.011
+margin_bottom = 730.013
+text = "返回标题"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Panel/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Panel/Button2" to="." method="_on_Button2_pressed"]

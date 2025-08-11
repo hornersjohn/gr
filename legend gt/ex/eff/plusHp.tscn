@@ -1,0 +1,56 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://core/eff.tscn" type="PackedScene" id=1]
+[ext_resource path="res://res/eff/ziLiao.png" type="Texture" id=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends \"res://core/eff.gd\"
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+# Called when the node enters the scene tree for the first time.
+	
+func setAmount(val):
+	$spr/normal/Particles2D.amount = clamp(val,1,50) 
+"
+
+[sub_resource type="Gradient" id=2]
+offsets = PoolRealArray( 0, 0.0958904, 1 )
+colors = PoolColorArray( 0.0235294, 1, 0.0117647, 0, 0.520449, 0.989258, 0.51395, 1, 1, 1, 1, 0 )
+
+[sub_resource type="Animation" id=3]
+length = 3.0
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("spr/normal/Particles2D:emitting")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[node name="eff" instance=ExtResource( 1 )]
+script = SubResource( 1 )
+
+[node name="spr" parent="." index="0"]
+position = Vector2( -0.249468, -0.166312 )
+
+[node name="Particles2D" type="CPUParticles2D" parent="spr/normal" index="0"]
+scale = Vector2( 2, 2 )
+amount = 15
+texture = ExtResource( 2 )
+emission_shape = 1
+emission_sphere_radius = 16.0
+gravity = Vector2( 0, -80 )
+color_ramp = SubResource( 2 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="1"]
+autoplay = "idle"
+anims/idle = SubResource( 3 )

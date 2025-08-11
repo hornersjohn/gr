@@ -1,0 +1,70 @@
+﻿key,zh_CN,en,ja
+"穿戴者杀死非召唤单位获得2金币,每场战斗限6金币","穿戴者杀死非召唤单位获得2金币,每场战斗限6金币","Gain 2 coins on kill, maximum 6 per battle",着用者は、召喚されていないユニットを殺して2ゴールドコインを獲得します。各バトルは6ゴールドコインに制限されています
+生命之枪,生命之枪,Lance of Life,命の銃
+穿戴者杀死生物召唤1个骷髅士兵,穿戴者杀死生物召唤1个骷髅士兵,Summon a Skeleton on kill,装着者はクリーチャーを殺し、スケルトンの兵士を1人召喚する
+受到普通攻击，对攻击者造成15%物理防御的魔法伤害。,受到普通攻击，对攻击者造成15%物理防御的魔法伤害。,"Upon being hit by a basic attack, reflects magical damage equivalent of 15% armor",通常攻撃を受け、攻撃者の物理防御に15％の魔法ダメージを与えます。
+狂怒匕首,狂怒匕首,Berserker's Dagger,猛烈な短剣
+攻击命中有10层[烧灼]的单位时，召唤陨石对周围单位造成150%魔法伤害,攻击命中有10层[烧灼]的单位时，召唤陨石对周围单位造成150%魔法伤害,"If the target had 10 stacks of [Posioned], summon a meteor, dealing 150% magical damage to nearby units",[焦げ] 10層のユニットを攻撃するとき、隕石を召喚して周囲のユニットに150％の魔法ダメージを与える
+细剑,细剑,Backsword,剣
+生命值服,生命值服,Cloth of Life,健康サービス
+普通攻击额外造成目标最大生命值5%的物理伤害,普通攻击额外造成目标最大生命值5%的物理伤害,Normal attack deal bonus damage equivalent to 5% of target's max Hp,通常攻撃は、ターゲットの最大ヘルスの5％の追加の物理的ダメージを与えます
+寒箭,寒箭,Glacial Bolt,ハンジアン
+释放技能时，下次普通攻击附加150%魔法伤害,释放技能时，下次普通攻击附加150%魔法伤害,Attack deals 150% magical damage after casting an ability,スキルがリリースされると、次の通常攻撃は150％の魔法ダメージを追加します
+普通攻击20%概率附加5层[中毒],普通攻击20%概率附加5层[中毒],20% chance to inflict 5 stacks of [Poisoned] on normal attacks,5つの追加レイヤーで通常攻撃の20％の確率[中毒]
+霜之枪,霜之枪,Frostfang,フロストガン
+普通攻击20%概率附加5层[流血],普通攻击20%概率附加5层[流血],20% chance to inflict 5 stacks of [Hemorrhaged] on normal attacks,通常攻撃の確率20％、追加5層[出血]
+战斗时获得相当于你最大生命值3%的攻击力,战斗时获得相当于你最大生命值3%的攻击力,Gain attack power equivalent to 3% of max Hp,戦闘中に最大ヘルスの3％に等しい攻撃力を獲得する
+锯齿剑,锯齿剑,Serrated Spikes,鋸歯状の剣
+毒枪,毒枪,Venom Pike,毒銃
+白银盾,白银盾,Silver Shield,シルバーシールド
+骷髅之戒,骷髅之戒,Ring of Skeleton,スカルリング
+暴击时获得5层狂怒,暴击时获得5层[狂怒],"Receive 5 stacks of [Berserked] upon crit
+",クリティカルストライク中に5段階を獲得する[Furious]
+高速匕首,高速匕首,Light Daggers,高速短剣
+黑晶盾,黑晶盾,Onyx Shield,ブラッククリスタルシールド
+技能命中敌方单位时，赋予目标5层[中毒],技能命中敌方单位时，赋予目标5层[中毒],"When an ability damages enemy units, inflict 5 stacks of [Poisoned]",スキルが敵ユニットに命中した場合、ターゲットに5レベルを付与します[毒]
+冰霜戒指,冰霜戒指,Ring of Frost,フロストリング
+攻击命中有10层[中毒]的单位时，毒爆周围单位造成150%魔法伤害,攻击命中有10层[中毒]的单位时，毒爆周围单位造成150%魔法伤害,"If the target had 10 stacks of [Posion], explode for 150% magical damage to nearby units",毒]が10層に当たるユニットを攻撃すると、周囲のユニットが150％の魔法ダメージを与える
+技能命中敌方单位时，赋予目标5层[结霜],技能命中敌方单位时，赋予目标5层[结霜],"When an ability damages enemy units, inflict 5 stacks of [Frozen]",スキルが敵ユニットに命中した場合、[Frost]の5レベルをターゲットに付与します
+闪耀之杖,闪耀之杖,Rod of Radiance,輝くスタッフ
+复活甲,复活甲,Vest of Immortals,復活の鎧
+金法杖,金法杖,Golden Wand,ゴールデンスタッフ
+冰杖,冰杖,Congealed Wand,アイススティック
+免疫所有负面状态！,免疫所有负面状态！,Immune to all negative status effects!,すべてのネガティブな状態に耐性があります！
+神戒,神戒,Divine Ring,神の指輪
+当你获得[狂怒]时也获得相应层数的[急速],当你获得[狂怒]时也获得相应层数的[急速],Receive equal amount stacks of [Hasted] when [Berserked],[激怒]を獲得すると、対応するレベルの[速攻]も獲得します
+火焰披风,火焰披风,Bonfire Cape,炎のマント
+当你拥有[急速]，普通攻击也附加4层[结霜],当你拥有[急速]，普通攻击也附加4层[结霜],Normal attack inflicts 4 stacks of [Forzen] if [Hasted]d,[速攻]を持っている場合、通常の攻撃にも4つの追加レイヤーがあります[霜]
+每5秒：获得5层狂怒,"每5秒：获得5层[狂怒]
+",Receive 5 stacks of [Berserked] every 5 seconds,5秒ごと：[激怒]の5レベルを獲得\ n
+技能命中敌方单位时，赋予目标5层[烧灼],技能命中敌方单位时，赋予目标5层[烧灼],"When an ability damages enemy units, inflict 5 stacks of [Burning]",スキルが敵ユニットに命中した場合、ターゲットに5つのレイヤーを付与します[バーン]
+拉锯拳刃,拉锯拳刃,Katar,鋸刃
+普通攻击20%概率获得5层[急速],普通攻击20%概率获得5层[急速],20% to gain 5 stacks of [Hasted] on normal attacks,通常の攻撃で20％の確率で5レベルが上がる[急いで]
+项链,项链,Necklace,ネックレス
+血精戒,血精戒,Hemo-ring,血の輪
+普通攻击20%概率赋予5层[失明],普通攻击[失明]的生物，额外造成[失明]层数 * 5的魔法伤害,20% chance to inflict 5 stacks of [Blinded] on normal attacks,通常攻撃の20％の確率で5層の[ブラインドネス]を付与します
+每4次普通攻击额外造成100%物理伤害 和 100%魔法伤害,每4次普通攻击额外造成100%物理伤害 和 100%魔法伤害,Every fourth normal attack deal 100% bonus physical and magical damage,通常攻撃4回ごとに、物理ダメージが100％、魔法ダメージが100％増加します
+<!MissingKey:>,,"When attacking [Blinded] creature, deal bonus damage equal of 5 * the ",通常の[ブラインド]クリーチャーを攻撃し、追加の[ブラインドネス]レイヤーを発生させます* 5魔法ダメージ
+好书,好书,Novel,良書
+每次普通攻击获得2层[急速],每次普通攻击获得2层[急速],Gain two stacks of [Hasted] on normal attacks,基本攻撃ごとに2ティア[ヘイスト]を獲得
+熔岩吊坠,熔岩吊坠,Magma Pendant,溶岩ペンダント
+环保盾,环保盾,Shield of Nature,環境保護シールド
+进入战斗和每10秒，免疫一次技能伤害。,进入战斗和每10秒，免疫一次技能伤害。,Immune to one ability damage immediately into the fight and every 10 seconds after,戦闘に入り、10秒ごとにスキルのダメージを受けません。
+施放cd技能会获得[急速]15秒,施放cd技能会获得[急速]15秒,Gain 15 seconds of [Hasted] upon skill cast,キャスティングCDスキルは15秒間[ヘイスト]を獲得します
+每秒使周围1格敌方附加3层烧灼.,每秒使周围1格敌方附加3层[烧灼].,Inflict 3 stacks of [Burning] to nearby enemies every seconds,毎秒あなたの周りのすべての敵にさらに3層の[焦げ]を追加します。
+残暴之剑,残暴之剑,Blade of Tyranny,残忍な剣
+普通攻击中毒单位时，恢复 层数 * 0.3%生命值,普通攻击[中毒]单位时，恢复 层数 * 0.3%生命值,"On normal attack [Poisoned] units, regenerate 0.30 * stacks of Hp",通常攻撃[毒された]ユニット、レイヤー数を回復*ヘルス0.3％
+荆棘盾,荆棘盾,Thorn Shield,いばらの盾
+技能命中敌方单位时，赋予目标5层[结霜]，并使目标承受结霜层数*3的真实伤害,技能命中敌方单位时，赋予目标5层[结霜]，并使目标承受[结霜]层数*3的真实伤害,"When an ability damages enemy units, inflict 5 stacks of [Frozen], dealing bonus true damage equivalent of 3 * the stacks of  [Frozen]",スキルが敵ユニットに命中した場合、ターゲットに[フロスト]を5層付与し、[フロスト]層の実際のダメージをターゲットに与える※3
+剧毒之杖,剧毒之杖,Toxic Staff,有毒なスタッフ
+风之弓,风之弓,Zephyr,風の弓
+吸血杖,吸血杖,Bloodlust Scepter,ヴァンパイアスタッフ
+战斗时获得等同于物理抗性30%的魔抗,战斗时获得等同于物理抗性30%的魔抗,Gain an additional 30% of Armor as Magic Armor,戦闘中、物理耐性の30％に等しい魔法耐性を得る
+夜色匕首,夜色匕首,Dirk of the Darkened,ナイトダガー
+濒临死亡复活1次，恢复50%生命值,濒临死亡复活1次，恢复50%生命值,"Resurrects and restores 50% of max Hp, occurs one time per battle",死の瀬戸際に一度復活し、人生の50％を回復した
+斩铁,斩铁,Zantetsuken,チョップアイアン
+道服,道服,Cassock,道教
+普通攻击流血单位时，会获得物理吸血： 层数*3%,普通攻击[流血]单位时，会获得物理吸血： 层数*3%,"On normal attack [Hemorrhaged] units, gain 3 * stacks life vamp",[出血]ユニットを通常攻撃すると、物理的なライフスティールを獲得できます：レイヤー* 3％
+闪避时使目标附加4层[结霜],闪避时使目标附加4层[结霜],Inflict 4 stacks of [Frozen] on evasion ,回避するときにターゲットに4つのレイヤーを追加します。
+"当敌方10层以上[结霜]的单位死亡，获得2金币,每场战斗限6金币","当敌方10层以上[结霜]的单位死亡，获得2金币,每场战斗限6金币","When an enemy dies with more than 10 stacks of [Frozen], gain 2 coins, maximum 6 per battle",[Frost]の10レベルを超える敵ユニットが死亡すると、2ゴールドコインを獲得します。各バトルは6ゴールドコインに制限されています
+裁决,裁决,Judgement,判決

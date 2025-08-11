@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://ui/theme.tres" type="Theme" id=1]
+[ext_resource path="res://ui/talentSelMsg/1.png" type="Texture" id=2]
+[ext_resource path="res://ui/talentSelMsg/item.gd" type="Script" id=3]
+
+[node name="TextureRect" type="NinePatchRect"]
+margin_right = 148.0
+margin_bottom = 96.0
+rect_min_size = Vector2( 148, 96 )
+theme = ExtResource( 1 )
+texture = ExtResource( 2 )
+patch_margin_left = 26
+patch_margin_top = 31
+patch_margin_right = 26
+patch_margin_bottom = 24
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -66.2075
+margin_top = 37.0
+margin_right = -5.0
+margin_bottom = 89.3754
+text = "学习"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -59.0
+margin_top = 1.0
+margin_right = -4.0
+margin_bottom = 43.0
+text = "lv:55"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

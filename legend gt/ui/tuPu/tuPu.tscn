@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/tuPu/tuPu.gd" type="Script" id=1]
+[ext_resource path="res://ui/theme.tres" type="Theme" id=3]
+
+[node name="Control" type="WindowDialog"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 14.0
+margin_top = 43.0
+margin_right = -14.0
+margin_bottom = -13.0
+theme = ExtResource( 3 )
+window_title = "生物图谱"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+margin_left = 21.0
+margin_top = 35.0
+margin_right = 1579.0
+margin_bottom = 645.0
+scroll_vertical_enabled = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 750.0
+margin_top = 671.0
+margin_right = 896.0
+margin_bottom = 723.375
+text = "返回"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="topUi" type="CanvasLayer" parent="."]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

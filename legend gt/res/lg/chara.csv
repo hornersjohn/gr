@@ -1,0 +1,167 @@
+﻿key,zh_CN,en,ja
+活尸,活尸,Corpses,生きている死体
+死灵术士,死灵术士,Necromancer,ネクロマンサー
+灵魂提灯者,灵魂提灯者,Soul Lartern,ソウルランタン
+触手法师,触手法师,Tentacle Mage,触手マスター
+普攻附加100%魔法伤害,普攻附加100%魔法伤害,Basic attack also deal 100% magical damage,基本攻撃は100％の魔法ダメージを追加します
+蜗牛,蜗牛,Snail,カタツムリ
+女战士,女战士,Female Warrior,女战士
+每3秒：施放一个奥术飞弹造成100%法强的魔法伤害。,每3秒：施放一个奥术飞弹造成100%法强的魔法伤害。,"Every 3 seconds: Cast an arcane missile, dealing 100% magic power magical damage",3秒ごと：秘儀ミサイルをキャストすると、100％の魔法ダメージを与えます。
+当有单位死亡:本次战斗+30攻击力,当有单位死亡:本次战斗+30攻击力,On unit death: gain 30 attack this battle,ユニットが死亡した場合：この戦闘での攻撃力+30
+剑客,剑客,Swordman,剣士
+冰龙,冰龙,Ice Dragon,氷の竜
+雪女,雪女,Snow Maiden,雪の乙女
+每5秒：最近3名内友军获得[抵御][魔御]各5层,每5秒：最近3名内友军获得[抵御][魔御]各5层,Every 5 seoncds: 3 nearest friendly units receive 5 stack of[Armored] and [Magic Armored],5秒ごと：最後の3人の内部味方部隊は、[防御] [魔法]を各5レベル取得します
+普通攻击附加随机负面状态3层,普通攻击附加随机负面状态3层,Basic attack inflicts 3 stacks of random negative stutus effect,通常の攻撃はランダムなネガティブ状態の3つのレイヤーを追加します
+普攻攻击附加1层[烧灼][中毒],普攻攻击附加1层[烧灼][中毒],Basic attack inflicts 1 stack of [Burning] and [Poisoned],1層追加の基本攻撃攻撃[焼き] [毒]
+每10秒：霸王斩对直线单位造成200%物理伤害，普通攻击减少20%冷却,每10秒：霸王斩对直线单位造成200%物理伤害，普通攻击减少20%冷却,"Every 10 seconds: Slashs all enemy units on a straight line with Barbarian Strick, dealing 200% physical damage to them. Every Basic attack refund 20% cooldown",10秒ごと：オーバーロードは、直線ユニットに200％の物理ダメージを与え、通常の攻撃では20％のクールダウンを引き起こします
+每5秒：获得10层[魔御],每5秒：获得10层[魔御],Every 5 seconds: gain 10 stacks of [Magic Armored],5秒ごと：10のレイヤーを獲得する[Magic Royal]
+荒原野兽,荒原野兽,King of Wasteland,荒れ野の獣
+每7秒，对3个法强最高敌方单位造成200%物理伤害，并附加10层[流血],每7秒，对3个法强最高敌方单位造成200%物理伤害，并附加10层[流血],"Every 7 seconds: dealing 200% physical damage to 3 enemy units with the highest magic power, and inflicts 10 stacks of [Hemorrhaged]",7秒ごとに、最大のパワーを持つ3つの敵ユニットに200％の物理ダメージを与え、さらに10のレイヤーを追加します[出血]
+海螺章鱼,海螺章鱼,Conch Octapus,巻き貝のタコ
+"30%的概率闪避普通攻击,获得等同于闪避的暴击率","30%的概率闪避普通攻击,获得等同于闪避的暴击率","30% chance to evade Basic attack, gain crit chance equivalent evasion chance",30％の確率で通常の攻撃を回避し、回避に等しいクリティカルストライク率を獲得します
+毒气团,毒气团,Toxin,ガス質量
+忍者,忍者,Ninja,忍者
+"每10秒：召唤陨石对目标及1格内单位造成300%的魔法伤害,并附加10层[烧灼]","每10秒：召唤陨石对目标及1格内单位造成300%的魔法伤害,并附加10层[烧灼]","Every 10 seconds: Summon a meteor, dealing 300% magical damage to target and all enemy units within 1 square, and inflicting 10 stacks of [Burning]",10秒ごと：隕石を召喚して、ターゲットと1スクエア内のユニットに300％の魔法ダメージを与え、さらに10のレイヤーを追加します[Burn]
+风行者,风行者,Windranger,ウインドランナー
+每11秒： 每有一个敌方[烧灼]单位，我方便有一个单位获得相同层数 [抵御][魔御],每11秒： 每有一个敌方[烧灼]单位，我方便有一个单位获得相同层数 [抵御][魔御],"Every 11 seconds: for every [Burning] enemy, a friendly unit gain same stacks of [Armored] and [Magic Armored]",11秒ごと：敵[焦げ]ユニットがあるたびに、同じ数のレイヤー[防御] [魔法]を得るために1つのユニットがあります。
+壳龙,壳龙,Shell Dragon,シェルドラゴン
+犀牛萨满,犀牛萨满,Rhino Shaman,サイシャーマン
+当周围1格内每少一个友军，物理攻击，物理防御，魔法防御，攻击速度 各提升10%，则最高提升40%,当周围1格内每少一个友军，物理攻击，物理防御，魔法防御，攻击速度 各提升10%，则最高提升40%,"Attack, defense, magic defense, attack speed are increased by 10% for each empty or non-ally units nearby, 40% maximum ",各周辺エリアに味方が1人少ない場合、物理攻撃、物理防御、魔法防御、攻撃速度が10％増加し、最大増加は40％です。
+免疫所有负面状态！,免疫所有异常状态！,Immune to all negative stutus effect!,すべての異常な状態に耐性があります！
+非召唤单位死亡：50%概率召唤一个活尸,非召唤单位死亡：50%概率召唤一个活尸,On non-summon unit death: 60% chance to summon 1 corpses,召喚されていないユニットは死ぬ：生きている死体を召喚する確率は50％
+绿巨人,绿巨人,Green Giant,ハルク
+普通攻击暴击时，释放第二个技能。,普通攻击暴击时，释放第二个技能。,"When Basic attack crits, cast ability 2",通常の攻撃がクリティカルな場合、2番目のスキルを解放します。
+受到普通攻击时，30%概率格挡并反击对方(视为普通攻击)。,受到普通攻击时，30%概率格挡并反击对方(视为普通攻击)。,"Upon getting basic attacked, has 30% chance to parry and riposte (count as a Basic attack)",通常攻撃を受けると、30％の確率でブロックして反撃します（通常攻撃と見なされます）。
+每5秒：本次战斗攻击力累积增加  所有敌方[流血]层数,每5秒：本次战斗攻击力累积增加  所有敌方[流血]层数,Every 5 seconds: Gain attack equal to the total stacks of [Hemorrhaged] enemy for this battle,5秒ごと：この戦闘の攻撃力は累積的に増加しますすべての敵[出血]レイヤー
+莽牛,莽牛,Bull,発疹牛
+狂战士,狂战士,Berserker,バーサーカー
+增加50%暴击。,增加50%暴击。,Increase 50% crit chance,クリティカルストライクが50％増加します。
+少女树,少女树,Nymph,乙女の木
+普通攻击20%概率获得5层[急速],普通攻击20%概率获得5层[急速],Basic attack has 20% chance to gain 5 stacks of [Hasted],通常攻撃は20％の確率で5つのレベルを獲得します[速攻]
+女武神-传奇,女武神-传奇,Valkyrie - Legend,ヴァルキリーレジェンド
+圣职者,圣职者,Priestess,祭司
+暴击时，回复该次伤害的生命值。,暴击时，回复该次伤害的生命值。,Heal for the damage done on crits,クリティカルストライク中に、ダメージの状態を回復します。
+"每7秒：射出穿透箭对直线上单位造成200%的物理伤害,并赋予5层[流血].","每7秒：射出穿透箭对直线上单位造成200%的物理伤害,并赋予5层[流血].","Every 7 seconds: shoot an arrow that penetrates all enemy units on a straight line, dealing 200% physical damage to them and inflicting 5 stacks of [Hemorrhaged]",7秒ごと：貫通する矢を放つと、ライン上のユニットに200％の物理ダメージが与えられ、[出血]が5層付与されます。
+魔法师,魔法师,Mage,魔術師
+骷髅兵,骷髅兵,Skeleton Warrior,スケルトン兵
+普攻附加50%物理防御的魔法伤害,普攻附加50%物理防御的魔法伤害,Basic attack deal extra magical damage equivalent 50% defense,基本攻撃は物理防御魔法ダメージの50％を追加します
+"增加50%暴击,增加20%暴击伤害。","增加50%暴击,增加20%暴击伤害。","Increase 50% crit chance, increase 20% crit damage",クリティカルストライクが50％増加し、クリティカルストライクのダメージが20％増加します。
+女神撒拉弗-传奇,女神撒拉弗-传奇,Seraph - Legend,女神サラフ?レジェンド
+物理防御提高40%.,物理防御提高40%.,Increase 40% defense,物理防御力が40％増加しました。
+神兽白虎,神兽白虎,Divine White Tiger,ホワイトタイガー
+每9秒：为生命最低的单位恢复50%法强生命值,每9秒：为生命最低的单位恢复50%法强生命值,Every 9 seconds: Heal for a friendly unit who has lowest hp for 50% magic power,9秒ごと：魔法の力の50％を最下のライフユニットに戻します
+圣骑士,圣骑士,Paladin,パラディン
+每10秒，恢复自身及生命值百分比最低的友方随从17%生命值。,每10秒，恢复自身及生命值百分比最低的友方随从17%生命值。,Every 10 seconds: heal 17% hp to self and 1 friendly unit with lowest Hp,10秒ごとに、自分自身と彼の友人を最も低いパーセンテージで回復し、彼の健康の17％を追跡します。
+增加30%攻击速度,增加30%攻击速度,Increase 30% attack speed,攻撃速度を30％増加させる
+"每10秒：召唤1个活尸,上限3只","每10秒：召唤1个活尸,上限3只","Every 10 seconds: summon 1 corpses, maximum 3 corpses",10秒ごと：制限が3の生きている死体1個を召喚します
+盾卫,盾卫,Legionary,シールド
+章鱼,章鱼,Octapus,たこ
+恶灵,恶灵,Spirit,悪霊
+每2秒：对1个敌方单位造成90%的魔法伤害，并附加[烧灼][中毒]各4层,每2秒：对1个敌方单位造成90%的魔法伤害，并附加[烧灼][中毒]各4层,"Every 2 seconds: deal 90% magical damage to an enemy unit, inflicting 4 stacks of [Burning] and [Poisoned]",2秒ごと：敵ユニットに魔法ダメージの90％を加え、さらに[焼き] [毒]各4レイヤー
+悍将-传奇,悍将-传奇,Heroic General - Legend,タイタンズレジェンド
+普通攻击时自身周围1格其他敌方单位造成50%的伤害，并赋予2层[流血],普通攻击时自身周围1格其他敌方单位造成50%的伤害，并赋予2层[流血],"Basic attack targets all enemies within one square of it, dealing 50% damage and inflicts 2 stacks of [Hemorrhaged]",通常攻撃時、あなたの周りの1つの敵ユニットは50％のダメージを与え、2層の[出血]を付与します
+每5秒：使最近3个友方生物获得5层[抵御][魔御]，并目标获得这两种buff层数的暴击率,每5秒：使最近3个友方生物获得5层[抵御][魔御]，并目标获得这两种buff层数的暴击率,"Every 5 seconds: grant 3 nearest friendly units 5 stacks of [Armored], [Magic Armored], and crit chance equal to stacks of these two buffs combined",5秒ごと：最後の3人の友好的なクリーチャーに5レイヤーを付与[防御] [魔法]し、これら2つのバフレイヤーのクリティカル率をターゲットにします
+奈亚拉托提普-传奇生物,奈亚拉托提普-传奇生物,Nyarlathotep - Legend,ナイアラトピップ-伝説の生き物
+哥布林法师,哥布林法师,Goblin Mage,ゴブリンマスター
+小精灵,小精灵,Pixie,小さい妖精
+骷髅法师,骷髅法师,Skeleton Mage,スケルトンメイジ
+当有单位死亡:本次战斗+35攻击力,当有单位死亡:本次战斗+35攻击力,On unit death: gain 35 attack this battle,ユニットが死亡した場合：この戦闘での攻撃力+35
+绿皮哥布林,绿皮哥布林,Orc,緑のゴブリン
+潜行者,潜行者,Assassin,ローグ
+幼龙,幼龙,Baby Dragon,ヤングドラゴン
+男兵,男兵,Warrior,男性兵士
+食人花,食人花,Venus Man Trap,ピラニア
+火法师,火法师,Inferno Mage,ファイアマスター
+自身每一层[魔御]提高2%伤害输出，最高50%,自身每一层[魔御]提高2%伤害输出，最高50%,"Every stack of [Magic Armored] increases 2% damage output, maximum 50%",[マジック]の各レイヤーは、ダメージ出力を2％、最大50％増加させます
+任意角色召唤1个单位时，绿巨人永久+5生命值,任意角色召唤1个单位时，绿巨人永久+5生命值,"Whenever any unit is summoned, grow 5 hp",いずれかのキャラクターが1ユニットを召喚すると、ハルクは恒久的に+5のヘルスを得ます
+普攻攻击附加1层[结霜][流血],普攻攻击附加1层[结霜][流血],Basic attack inflicts target 1 stack of [Frozen] and [Hemorrhaged],基本攻撃攻撃で1層追加【霜】【出血】
+每10秒：恢复15%的生命值，我方单位释放技能时，减少4%冷却,每10秒：恢复15%的生命值，我方单位释放技能时，减少4%冷却,"Every 10 seconds: Heal 15% max hp. When a friendly unit cast ability, refund 4% cooldown",10秒ごと：ヘルスの15％を回復します。ユニットがスキルを解放すると、冷却が4％減少します
+"每7秒：发射3枚火球，攻击最近的敌人，造成200%魔法伤害,并附加7层烧灼","每7秒：发射3枚火球，攻击最近的敌人，造成200%魔法伤害,并附加7层[烧灼]","Every 7 seconds: Cast 3 fireballs, dealing 200% magical damage and inflicting 7 stacks of [Burning] to nearest enemy units",7秒ごと：3つの火の玉を発射して最も近い敵を攻撃し、200％の魔法ダメージを与え、さらに7つのレイヤーを追加します[焼き込み]
+每13秒，召唤一颗人参果,每13秒，召唤一颗人参果,Every 13 seconds: summon 1 Ginseng-fruit,13秒ごとに、高麗人参の実を召喚します
+攻击[流血]单位时，获得[急速]和[狂怒]，层数等于目标身上[流血]层数,攻击[流血]单位时，获得[急速]和[狂怒]，层数等于目标身上[流血]层数,"When attacking a [Hemorrhaged] unit, gain [Hasted] and [Berserked] stackequal to target's [Hemorrhaged] stacks",[Bleeding]ユニットを攻撃すると、[Haste]と[Furious]が得られます。レイヤーの数は、ターゲットの[Bleeding]レイヤーの数と同じです
+每5秒：获得5层[狂怒],每5秒：获得5层[狂怒],Every 5 seconds: Gain 5 stacks of [Berserked],5秒ごと：5つのレベルを獲得[激怒]
+修女,修女,Nun,尼僧
+"开始战斗时：闪现至敌方后排，下次普通攻击造成双倍伤害(可暴击)，并赋予5层[流血],每5秒重置.","开始战斗时：闪现至敌方后排，下次普通攻击造成双倍伤害(可暴击)，并赋予5层[流血],每5秒重置.","When battle starts: Blink to enemy backline, dealing double damage (can crit), inflicting 5 stacks of [Hemorrhage]. Resets every 5 seconds",戦闘開始時：敵の後列にフラッシュし、次の通常攻撃は2倍のダメージ（クリティカル）を発生させ、5層の[出血]を付与し、5秒ごとにリセットします。
+鳗蛇,鳗蛇,Snake Eel,うなぎヘビ
+英雄,英雄,Legend,ヒーロー
+濒临死亡复活1次，恢复70%生命值,濒临死亡复活1次，恢复70%生命值,"Resurrect once upon death, restore 70% Hp",死の瀬戸際に一度復活し、人生の70％を回復した
+任意角色召唤1个单位时，永久+5生命值,任意角色召唤1个单位时，永久+5生命值,"Whenever any unit is summoned, grow 5 hp",いずれかのキャラクターが1ユニットを召喚したとき、永続的なヘルス+5
+哥布林双子,哥布林双子,Goblin Gemini,ゴブリンジェミニ
+闪现至后排，普攻附带目标和自身70%法强的魔法伤害。,闪现至后排，普攻附带目标和自身70%法强的魔法伤害。,"Blink to enemy backline, basic attack deals extra magical damage equivalent 70% of its and target's magic power",後列に点滅している一般的な攻撃は、その魔法の力の70％とターゲットの魔法のダメージを持っています。
+剑神-传奇,剑神-传奇,Mars - Legend,剣神伝説
+闪现至后排，普攻附带目标和自身30%法强的魔法伤害。,闪现至后排，普攻附带目标和自身30%法强的魔法伤害。,"Blink to enemy backline, basic attack deals extra magical damag equivalent 70% of its and target's magic power",後列に点滅し、一般的な攻撃はターゲットの魔法ダメージとその魔法パワーの30％を伴います。
+普通攻击20%概率使对手[失明]5秒,普通攻击20%概率使对手[失明]5秒,Basic attack has 20% chance to inflict [Blinded] to target for 5 seconds,通常攻撃の20％の確率で5秒間敵を[ブラインド]にする
++15%暴击，暴击时额外造成100%的物理伤害,+15%暴击，暴击时额外造成100%的物理伤害,"Increase 15% crit chance, dealing extra 100% physical damage on crit",+ 15％クリティカル、クリティカル中に追加の100％物理ダメージ
+元素,元素,Elemental,素子
+每10秒：使友军获得[抵御][魔御][狂怒]15层,每10秒：使友军获得[抵御][魔御][狂怒]15层,"Every 15 seoncds: All friendly units receive 5 stack of[Armored],[Magic Armored], and [Berserked]",10秒ごと：15レイヤーの[防御] [魔法] [激怒]を仲間に許可します
+爬行之卵,爬行之卵,Crawling Egg,忍び寄る卵
+"40%的概率闪避普通攻击,获得等同于闪避的暴击率","40%的概率闪避普通攻击,获得等同于闪避的暴击率","40% chance to evade Basic attack, gain crit chance equivalent to evasion chance",40％の確率で通常の攻撃を回避し、回避に等しいクリティカルストライク率を獲得
+触手长枪使,触手长枪使,Tentacle Spearman,触手槍
+普攻额外攻击2名最近的敌人，造成50%魔法伤害（视为普通攻击），附加1层[烧灼],普攻额外攻击2名最近的敌人，造成50%魔法伤害（视为普通攻击），附加1层[烧灼],"Basic attack target extra 2 nearest enemy units within range, dealing 50% magical damage (counts as Basic attack), inflicting 1 stack of [Burning]",基本攻撃は最も近い2つの敵を攻撃し、（通常の攻撃として）50％の魔法ダメージを与え、さらに1つのレイヤーを追加します[書き込み]
+盾战士,盾战士,Shieldmaiden,シールド戦士
+战斗开始时，周围一格内友军获得30点物理防御。,战斗开始时，周围一格内友军获得30点物理防御。,All friendly unit within 1 square gain 30 defense on battle start,戦闘の開始時に、周辺地域のすべての友軍は30の物理防御力を獲得します。
+每次受到普通攻击增加一层[狂怒]。,每次受到普通攻击增加一层[狂怒],"Upon getting basic attacked, gain one stack of [Berserked]",通常攻撃を受けるたびに、[Furious]のレイヤーを追加します
+血刃妖精,血刃妖精,Blood Fairy,ブラッドブレイドフェアリー
+每2秒：回复2格内友军2%的生命值。,每2秒：回复2格内友军2%的生命值。,Every 2 seconds: heal all friendly unit 2 square around for 2% of their max Hp,2秒ごと：2ブロック内の仲間の2％を回復します。
+每5秒：对周围1格单位照成100%物理伤害,每5秒：对周围1格单位照成100%物理伤害,Every 5 seconds: deal 100% physical damage to all enemy units 1 square around,5秒ごと：周辺ユニットへの100％の物理的ダメージ
+每损失1%的生命值，获得1%的攻速和攻击力！,每损失1%的生命值，获得1%的攻速和攻击力！,Gain 1% of attack power and attack speed for every 1% of hp lost,ライフの1％を失うごとに、攻撃速度と攻撃力が1％増加します！
+三头犬,三头犬,Cerberus,3頭の犬
+获得额外20%暴击率，并使cd技能也能够暴击,获得额外20%暴击率，并使cd技能也能够暴击,"Gain 20% extra crit chance, ability can crit",さらに20％のクリティカル率を獲得し、CDスキルをクリティカルにできるようにします
+每4次普通攻击:对周围1格敌方造成200%物理伤害，并附加[流血][中毒]各5层,每4次普通攻击:对周围1格敌方造成200%物理伤害，并附加[流血][中毒]各5层,"Every 4 Basic attack: deal 200% physical damage to all enemy unit 1 grid around, and give them [Hemorrhage] and [Poisoned] each 7 stacks",通常攻撃4回ごと：周囲の敵に200％の物理ダメージを与え、さらに[出血] [毒]各5層
+免疫所有异常状态！,免疫所有异常状态！,Immune to all negative stutus effect!,すべての異常な状態に耐性があります！
+每5秒：对周围1格单位造成100%物理伤害,每5秒：对周围1格单位造成100%物理伤害,Every 5 seconds: deal 100% physical damage to all enemy units 1 square around,5秒ごと：周辺ユニットに100％の物理ダメージを与える
+每5秒：为最近6名友方单位祝福[狂怒][魔御]各10秒,每5秒：为最近6名友方单位祝福[狂怒][魔御]各10秒,Every 5 seconds: Grant 6 nearest friendly unit with [Berserked] and [Magic Armored] each 10 seconds,5秒ごと：最後の6つの味方ユニットに[激怒] [魔法の皇帝]をそれぞれ10秒ずつ祝福
+荒诞之树-传奇,荒诞之树-传奇,Absurd Treant - Legend,不条理な木の伝説
+每10秒：激光射线攻击直线单位造成200%的魔法伤害，并使其[失明]和[中毒]各7秒.,每10秒：激光射线攻击直线单位造成200%的魔法伤害，并使其[失明]和[中毒]各7秒.,"Every 10 seconds: Laser penetrates all enemy units on a straight line, dealing 200% magical damage to them, inflicting [Blinded] and [Poisoned] for 7 seconds",10秒ごと：レーザー光線が200％の魔法ダメージを与える直線ユニットを攻撃し、7秒間それを[ブラインド]と[ポイズニング]にします。
+四臂将军,四臂将军,Four-armed General,4武装将軍
+凤凰-传奇,凤凰-传奇,Phoenix - Legend,フェニックスの伝説
+独眼章鱼,独眼章鱼,One-eyed Octapus,片目タコ
+天使长,天使长,Archangel,大天使
+摩西先知-传奇,摩西先知-传奇,Prophet Moses - Legend,モーゼの伝説-伝説
+死亡尸爆:1格内敌方附加[烧灼][中毒]各7层,死亡尸爆:1格内敌方附加[烧灼][中毒]各7层,On Death: inflicts 7 stacks of [Burning] and [Poisoned] to enemy units 1 square around ,Dead Bomb Explosion：敵が1マス内に7つのレイヤーを追加[燃焼] [中毒]
+每10秒：缠绕所有拥有负面buff的敌人，翻倍该负面buff的层数,每10秒：缠绕所有拥有负面buff的敌人，翻倍该负面buff的层数,Every 10 seconds: root and double the stacks for all enemy units with negative stutus effect,10秒ごと：すべての敵を負のバフでツイストし、負のバフの数を2倍にします
+哥布林,哥布林,Goblin,ゴブリン
+每10秒：为3个生命最低友方单位恢复50%法强生命值,每10秒：为3个生命最低友方单位恢复50%法强生命值,Every 10 seconds: Heal 3 friendly units who has lowest hp for 50% magic power,10秒ごと：魔法の力の50％を、友好度が最も低い3つのライフユニットに戻します。
+减少20%的魔法伤害,减少20%的魔法伤害,Negates 20% of magical damage,魔法ダメージを20％減らす
+每5秒：本次战斗攻击力累积增加 所有敌方[流血]层数,每5秒：本次战斗攻击力累积增加 所有敌方[流血]层数,Every 5 seconds: Gain attack equal to the total stacks of [Hemorrhaged] enemy for this battle,5秒ごと：この戦闘の攻撃力は累積的に増加しますすべての敵[出血]レイヤー
+每10秒：使友军的[抵御][魔御]层数翻倍,每10秒：使友军的[抵御][魔御]层数翻倍,Every 10 seconds: double [Armored] and [Magic Armored] stacks for all friendly units,10秒ごと：味方の[防御] [魔法]レイヤーの数を2倍にする
+每5秒：为最近8名友方单位祝福[狂怒][魔御]各10秒,每5秒：为最近8名友方单位祝福[狂怒][魔御]各10秒,Every 5 seconds: Grant 6 nearest friendly unit with [Berserked] and [Magic Armored] each 10 seconds,5秒ごと：最後の8つの味方ユニットの[激怒] [魔法の皇帝]をそれぞれ10秒祝福する
+火法哥布林,火法哥布林,Pyro Goblin,フオ?ファ?ゴブリン
+普通攻击20%概率附加随机负面状态5层,普通攻击20%概率附加随机负面状态5层,Basic attack has 20% chance to inflict 5 stacks of random negative stutus effect,通常攻撃の確率20％とランダムなネガティブ状態の5層
+炎龙,炎龙,Fire Dragon,延龍
+每7秒：对敌方攻击和法强最高的单位造成200%的魔法伤害，并附加10层结霜,每7秒：对敌方攻击和法强最高的单位造成200%的魔法伤害，并附加10层[结霜],"Every 7 seconds: Deal 200% magical damage to enemy units have the highest attack and magic power, and gives them 10 stacks of [Frozen]",7秒ごと：敵の攻撃に200％の魔法ダメージと最高の魔法パワーユニットを与え、さらに10層の[フロスト]を追加します
+触手眼球,触手眼球,Tentacle Eyeball,触手目玉
+狼狗,狼狗,Wolfhound,アルザス犬
+附近[流血]的单位死亡，恢复[流血]层数*15的生命值,附近[流血]的单位死亡，恢复[流血]层数*15的生命值,"When nearby [Hemorrhaged] units dies, heal for [Hemorrhaged] stack * 15",近くの[出血]ユニットが死亡し、[出血]レイヤーの状態が回復します* 15
+普通攻击使目标附加2层[流血],普通攻击使目标附加2层[流血],Basic attack inflicts 2 stacks of [Hemorrhaged],通常攻撃はターゲットに2つのレイヤーを追加します[出血]
+影龙,影龙,Shadow Dragon,シャドウドラゴン
+深海巨鲸-传奇,深海巨鲸-传奇,Giant of the Depth - Legend,深海の巨大な鯨の伝説
+每4次普通攻击:对周围1格敌方造成200%物理伤害，并附加[流血][中毒]各7层,每4次普通攻击:对周围1格敌方造成200%物理伤害，并附加[流血][中毒]各7层,"Every 4 Basic attack: deal 200% physical damage to all enemy unit 1 square around, inflicting 7 stacks of [Hemorrhaged] and [Poisoned] ",通常攻撃4回ごと：周囲の敵に200％の物理ダメージを与え、さらに[出血] [毒]各7層
+一棵草,一棵草,Bush Traper,草
+每3秒：对1个敌方单位造成130%的魔法伤害，并附加[烧灼][中毒]各6层,每3秒：对1个敌方单位造成130%的魔法伤害，并附加[烧灼][中毒]各6层,"Every 3 seconds: deal 130% magical damage to a enemy unit, inflicting 6 stacks of [Burning] and [Poisoned]",3秒ごと：敵ユニットに魔法ダメージの130％を加え、さらに[火傷] [毒]各6層
+妖精,妖精,Fairy,妖精
+莽夫哥布林,莽夫哥布林,Goblin Bruiser,マン?ゴブリン
+每4秒发射一颗毒弹造成100%魔法伤害，并附加6层[中毒],每4秒发射一颗毒弹造成100%魔法伤害，并附加6层[中毒],"Every 4 seconds: shoot a venom that deals 100% magical damage to aenemy unit, inflicting 6 stacks of [Poisoned]",4秒ごとに毒爆弾を発射して100％の魔法ダメージを与え、さらに6つのレイヤーを追加します[毒]
+弓箭手,弓箭手,Archer,射手
+每11秒：驱散所有己方中毒，恢复0.5% * 敌方所有单位[中毒]总层数  的生命值。,每11秒：驱散所有己方中毒，恢复0.5% * 敌方所有单位[中毒]总层数  的生命值。,Every 11 seconds: cleanse all friendly [Poisoned] unit. Heal 0.5% * total stacks of [Poisoned] enemy,11秒ごと：自分のパーティからすべての毒を払いのけ、敵のすべてのユニットの合計ヘルスの0.5％を回復します[毒]。
+火山岩,火山岩,Magma,火山岩
+每3次普通攻击额外产生一次普通攻击,每3次普通攻击额外产生一次普通攻击,"Every 3 Basic attack, attack one extra time",3つの一般的な攻撃ごとに、追加の一般的な攻撃が生成されます
+女兵,女兵,Maiden,女性兵士
+圣剑天使,圣剑天使,Dominions,聖剣天使
+游击者,游击者,Guerrilla,ゲリラ
+人参果,人参果,Ginseng-fruit,人参の実
+冰法师,冰法师,Ice Mage,アイスマスター
+获得30%魔法强度,获得30%魔法强度,Gain 30% magic power,30％の魔法力を獲得
+古龙斯拉夫-传奇,古龙斯拉夫-传奇,Elder Dragon Slavs - Legend,グロンスラブレジェンド
+悲哀树精,悲哀树精,Sorrow Treant,悲しみの木の精霊
+普攻附加2层[中毒]和[流血]，并造成[流血]+[中毒]层数*6的魔法伤害,普攻附加2层[中毒]和[流血]，并造成[流血]+[中毒]层数*6的魔法伤害,"Basic attack inflicts 2 stacks of [Poisoned] and [Hemorrhaged], dealing 6 * [Hemorrhaged]+[Poisoned] stack as magical damage",基本攻撃は[毒]と[出血]の2層を追加し、[出血] + [毒]層* 6の魔法ダメージ
+非召唤单位死亡：60%概率召唤一个活尸,非召唤单位死亡：60%概率召唤一个活尸,On non-summon unit death: 60% chance to summon 1 corpses,召喚されていないユニットは死亡します：60％の確率で生きている死体を召喚します
+马头神使,马头神使,Horse Head Envoy,馬頭
+哥布林战士,哥布林战士,Goblin Warrior,ゴブリン戦士
+每11秒：所有[结霜]的敌人受到150%法强的伤害，每1层[结霜]伤害提高4%,每11秒：所有[结霜]的敌人受到150%法强的伤害，每1层[结霜]伤害提高4%,"Every 11 seconds: deal 150% of magic power to all [Frozen] enemy, damage increase by 4% for everystack of [Frozen] ",11秒ごと：[フロスト]を持つすべての敵が魔法の力の150％を消費し、[フロスト]ダメージの各レベルが4％増加します
+发芽种子,发芽种子,Sprout,発芽した種子
+每11秒：所有敌方[烧灼]单位 附加相同层数的 [失明][中毒],每11秒：所有敌方[烧灼]单位 附加相同层数的 [失明][中毒],Every 11 seconds: Inflicts all [Burning] enemy with same stack of [Blinded] and [Poisoned],11秒ごと：同じレイヤー数のすべての敵[燃焼]ユニット[失明] [中毒]
+"每10秒：召唤陨石对目标及1格内单位造成250%的魔法伤害,并附加10层[烧灼]","每10秒：召唤陨石对目标及1格内单位造成250%的魔法伤害,并附加10层[烧灼]","Every 10 seconds: Summon a meteor, dealing 300% magical damage to target and all enemy units within 1 square, and inflicting 10 stacks of [Burning]",10秒ごと：隕石を召喚して、ターゲットと1スクエア内のユニットに250％の魔法ダメージを与え、さらに10のレイヤーを追加します
+每10秒：召唤冰雨连续4次对目标及2格内单位造成15%的魔法伤害，每次附加2[结霜]。,每10秒：召唤冰雨连续4次对目标及2格内单位造成15%的魔法伤害，每次附加2[结霜]。,"Every 10 seconds: Summon 4 blizzards, each dealing 15% magical damage to target and all enemy units within 2 squares, inflicting 2 stacks of [Frozen] each time",10秒ごと：Ice Rainを召喚し、4回連続して2ブロック以内にいるターゲットとユニットに15％の魔法ダメージを与える。さらに毎回2 [霜]。
+获得30%攻击吸血.普攻时目标身后的一格的敌人也承受一次普攻。,获得30%攻击吸血.普攻时目标身后的一格的敌人也承受一次普攻。,"Gain 30% life vamp, basic attack also damage the square behind the target",30％の攻撃ライフスティールを獲得します。一般攻撃中に、ターゲットの背後にいる敵も一般攻撃を受けます。

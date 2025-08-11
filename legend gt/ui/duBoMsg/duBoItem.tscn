@@ -1,0 +1,114 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://ui/shopMsg/1.png" type="Texture" id=1]
+[ext_resource path="res://ui/duBoMsg/duBoItem.gd" type="Script" id=2]
+[ext_resource path="res://ui/theme.tres" type="Theme" id=3]
+[ext_resource path="res://res/ui/g_Backgroud_wall_tile.png" type="Texture" id=4]
+[ext_resource path="res://ui/itemBt/kuan.png" type="Texture" id=5]
+
+[sub_resource type="Animation" id=1]
+resource_name = "show"
+tracks/0/type = "value"
+tracks/0/path = NodePath("TextureRect:region_rect")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Rect2( 28, 46, 139, 189 ), Rect2( 28, 46, 139, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("TextureRect/Label:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("TextureRect/TextureRect:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[node name="TextureButton" type="TextureButton"]
+margin_right = 150.0
+margin_bottom = 200.0
+theme = ExtResource( 3 )
+texture_normal = ExtResource( 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="f" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="Sprite" parent="."]
+position = Vector2( 5, 5.08491 )
+scale = Vector2( 1.00655, 1.00484 )
+texture = ExtResource( 4 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 28, 46, 139, 189 )
+
+[node name="Label" type="Label" parent="TextureRect"]
+margin_left = 43.8632
+margin_top = 36.3256
+margin_right = 69.8632
+margin_bottom = 74.3256
+rect_scale = Vector2( 3.02926, 2.12609 )
+text = "?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="TextureRect"]
+margin_right = 137.0
+margin_bottom = 187.0
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 63.649
+margin_top = 142.45
+margin_right = 141.649
+margin_bottom = 190.826
+text = "翻开"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 12.0
+margin_top = 149.0
+margin_right = 63.0
+margin_bottom = 187.0
+text = "70G"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/show = SubResource( 1 )
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

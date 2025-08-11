@@ -1,0 +1,260 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Reference",
+"class": "Ach",
+"language": "GDScript",
+"path": "res://core/ach.gd"
+}, {
+"base": "Reference",
+"class": "AtkInfo",
+"language": "GDScript",
+"path": "res://core/atkInfo.gd"
+}, {
+"base": "Reference",
+"class": "Att",
+"language": "GDScript",
+"path": "res://core/att.gd"
+}, {
+"base": "Reference",
+"class": "Buff",
+"language": "GDScript",
+"path": "res://core/buff.gd"
+}, {
+"base": "Obj",
+"class": "Chara",
+"language": "GDScript",
+"path": "res://core/chara.gd"
+}, {
+"base": "Node2D",
+"class": "Eff",
+"language": "GDScript",
+"path": "res://core/eff.gd"
+}, {
+"base": "TextureRect",
+"class": "ImgBtn",
+"language": "GDScript",
+"path": "res://core/imgBtn.gd"
+}, {
+"base": "Buff",
+"class": "Item",
+"language": "GDScript",
+"path": "res://core/item.gd"
+}, {
+"base": "ImgBtn",
+"class": "ItemBt",
+"language": "GDScript",
+"path": "res://ui/item/item.gd"
+}, {
+"base": "Reference",
+"class": "JinJie",
+"language": "GDScript",
+"path": "res://ex/guanKa/jinJie.gd"
+}, {
+"base": "Node2D",
+"class": "Main",
+"language": "GDScript",
+"path": "res://main.gd"
+}, {
+"base": "WindowDialog",
+"class": "MsgBase",
+"language": "GDScript",
+"path": "res://ui/msgBase/msgBase.gd"
+}, {
+"base": "Popup",
+"class": "MsgBaseX",
+"language": "GDScript",
+"path": "res://ui/msgBaseX/msgBaseX.gd"
+}, {
+"base": "Node2D",
+"class": "Obj",
+"language": "GDScript",
+"path": "res://core/obj.gd"
+}, {
+"base": "Node",
+"class": "Player",
+"language": "GDScript",
+"path": "res://core/player.gd"
+}, {
+"base": "Reference",
+"class": "RndPool",
+"language": "GDScript",
+"path": "res://core/rndPool.gd"
+}, {
+"base": "ScrollContainer",
+"class": "ScBox",
+"language": "GDScript",
+"path": "res://core/scPan.gd"
+}, {
+"base": "Reference",
+"class": "Talent",
+"language": "GDScript",
+"path": "res://core/talent.gd"
+}, {
+"base": "Buff",
+"class": "b_diRen",
+"language": "GDScript",
+"path": "res://ex/buff/b_diRen.gd"
+}, {
+"base": "Buff",
+"class": "b_diYu",
+"language": "GDScript",
+"path": "res://ex/buff/b_diYu.gd"
+}, {
+"base": "Buff",
+"class": "b_jiSu",
+"language": "GDScript",
+"path": "res://ex/buff/b_jiSu.gd"
+}, {
+"base": "Buff",
+"class": "b_jieShuang",
+"language": "GDScript",
+"path": "res://ex/buff/b_jieShuang.gd"
+}, {
+"base": "Buff",
+"class": "b_kuangNu",
+"language": "GDScript",
+"path": "res://ex/buff/b_kuangNu.gd"
+}, {
+"base": "Buff",
+"class": "b_liuXue",
+"language": "GDScript",
+"path": "res://ex/buff/b_liuXue.gd"
+}, {
+"base": "Buff",
+"class": "b_moYu",
+"language": "GDScript",
+"path": "res://ex/buff/b_moYu.gd"
+}, {
+"base": "Buff",
+"class": "b_shaoZhuo",
+"language": "GDScript",
+"path": "res://ex/buff/b_shaoZhuo.gd"
+}, {
+"base": "Buff",
+"class": "b_shiMing",
+"language": "GDScript",
+"path": "res://ex/buff/b_shiMing.gd"
+}, {
+"base": "Buff",
+"class": "b_zhonDu",
+"language": "GDScript",
+"path": "res://ex/buff/b_zhonDu.gd"
+} ]
+_global_script_class_icons={
+"Ach": "",
+"AtkInfo": "",
+"Att": "",
+"Buff": "",
+"Chara": "",
+"Eff": "",
+"ImgBtn": "",
+"Item": "",
+"ItemBt": "",
+"JinJie": "",
+"Main": "",
+"MsgBase": "",
+"MsgBaseX": "",
+"Obj": "",
+"Player": "",
+"RndPool": "",
+"ScBox": "",
+"Talent": "",
+"b_diRen": "",
+"b_diYu": "",
+"b_jiSu": "",
+"b_jieShuang": "",
+"b_kuangNu": "",
+"b_liuXue": "",
+"b_moYu": "",
+"b_shaoZhuo": "",
+"b_shiMing": "",
+"b_zhonDu": ""
+}
+
+[application]
+
+config/name="Legend Creatures"
+run/main_scene="res://control.tscn"
+boot_splash/image="res://logo.png"
+boot_splash/fullsize=false
+boot_splash/bg_color=Color( 0.0588235, 0.0588235, 0.0588235, 1 )
+config/icon="res://ico2.png"
+
+[autoload]
+
+sys="*res://core/data/sys.gd"
+config="*res://core/data/config.gd"
+chaData="*res://core/data/chaData.gd"
+itemData="*res://core/data/itemData.gd"
+topUi="*res://core/topUi.tscn"
+audio="*res://core/audio.tscn"
+guanKaData="*res://ex/guanKa/guanKaData.gd"
+jinJieData="*res://ex/guanKa/jinJieData.gd"
+talentData="*res://core/data/talentData.gd"
+globalData="*res://core/data/globalData.gd"
+modData="*res://core/data/modData.gd"
+start="*res://start/start.tscn"
+
+[debug]
+
+gdscript/warnings/unassigned_variable=false
+gdscript/warnings/unassigned_variable_op_assign=false
+gdscript/warnings/unused_variable=false
+gdscript/warnings/shadowed_variable=false
+gdscript/warnings/unused_argument=false
+gdscript/warnings/unreachable_code=false
+gdscript/warnings/unused_signal=false
+gdscript/warnings/integer_division=false
+
+[display]
+
+window/size/width=1640
+window/size/height=820
+mouse_cursor/custom_image="res://res/ui/cursor.png"
+mouse_cursor/custom_image_hotspot=Vector2( 6, 0 )
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[input]
+
+ui_cancel={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777217,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":1,"pressure":0.0,"pressed":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777220,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_m1={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"canceled":false,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+ui_m2={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":2,"canceled":false,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+
+[locale]
+
+fallback="zh_CN"
+translations=PoolStringArray( "res://res/lg/lg.en.translation", "res://res/lg/lg.ja.translation", "res://res/lg/lg.zh_CN.translation", "res://res/lg/chara.en.translation", "res://res/lg/chara.ja.translation", "res://res/lg/chara.zh_CN.translation", "res://res/lg/item.en.translation", "res://res/lg/item.ja.translation", "res://res/lg/item.zh_CN.translation", "res://res/lg/talent.en.translation", "res://res/lg/talent.ja.translation", "res://res/lg/talent.zh_CN.translation" )
+
+[logging]
+
+file_logging/enable_file_logging=true
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+environment/default_environment="res://default_env.tres"

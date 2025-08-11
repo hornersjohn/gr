@@ -1,0 +1,117 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://res/ui/kuang.png" type="Texture" id=1]
+[ext_resource path="res://ui/talentBtn/talentBtn.tscn" type="PackedScene" id=2]
+[ext_resource path="res://ui/playerPan/playerPan.gd" type="Script" id=3]
+
+[node name="player" type="Control"]
+margin_left = 1063.09
+margin_top = 243.911
+margin_right = 1103.09
+margin_bottom = 283.911
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+margin_left = 3.0
+margin_top = 3.0
+margin_right = 194.0
+margin_bottom = 289.0
+texture = ExtResource( 1 )
+region_rect = Rect2( -1, 0, 34, 29 )
+patch_margin_left = 22
+patch_margin_top = 16
+patch_margin_right = 22
+patch_margin_bottom = 19
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lv" type="Label" parent="."]
+margin_left = 29.5936
+margin_top = 18.023
+margin_right = 94.5936
+margin_bottom = 51.023
+custom_colors/font_color = Color( 0.807843, 0.380392, 0.0666667, 1 )
+text = "等级：1"
+
+[node name="gold" type="Label" parent="."]
+margin_left = 29.8923
+margin_top = 50.7421
+margin_right = 121.892
+margin_bottom = 83.7421
+custom_colors/font_color = Color( 0.894118, 0.564706, 0.176471, 1 )
+text = "金币：100g"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="renKou" type="Label" parent="."]
+margin_left = 30.8199
+margin_top = 81.473
+margin_right = 119.82
+margin_bottom = 114.473
+custom_colors/font_color = Color( 0.921569, 0.819608, 0.152941, 1 )
+text = "人口：0/10"
+
+[node name="hp" type="Label" parent="."]
+margin_left = 30.8199
+margin_top = 113.217
+margin_right = 119.82
+margin_bottom = 146.217
+custom_colors/font_color = Color( 0.32549, 1, 0.286275, 1 )
+text = "人口：0/10"
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 28.6974
+margin_top = 143.565
+margin_right = 168.697
+margin_bottom = 215.565
+columns = 4
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="skill" parent="GridContainer" instance=ExtResource( 2 )]
+margin_right = 32.0
+margin_bottom = 32.0
+
+[node name="skill2" parent="GridContainer" instance=ExtResource( 2 )]
+margin_left = 36.0
+margin_right = 68.0
+margin_bottom = 32.0
+
+[node name="skill3" parent="GridContainer" instance=ExtResource( 2 )]
+margin_left = 72.0
+margin_right = 104.0
+margin_bottom = 32.0
+
+[node name="skill4" parent="GridContainer" instance=ExtResource( 2 )]
+margin_left = 108.0
+margin_right = 140.0
+margin_bottom = 32.0
+
+[node name="skill5" parent="GridContainer" instance=ExtResource( 2 )]
+margin_top = 36.0
+margin_right = 32.0
+margin_bottom = 68.0
+
+[node name="skill6" parent="GridContainer" instance=ExtResource( 2 )]
+margin_left = 36.0
+margin_top = 36.0
+margin_right = 68.0
+margin_bottom = 68.0
+
+[node name="skill7" parent="GridContainer" instance=ExtResource( 2 )]
+margin_left = 72.0
+margin_top = 36.0
+margin_right = 104.0
+margin_bottom = 68.0
+
+[node name="skill8" parent="GridContainer" instance=ExtResource( 2 )]
+margin_left = 108.0
+margin_top = 36.0
+margin_right = 140.0
+margin_bottom = 68.0
